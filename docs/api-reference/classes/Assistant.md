@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v0.1.0**](../README.md)
+[**Veyra Node.js SDK v1.0.0**](../README.md)
 
 ***
 

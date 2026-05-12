@@ -170,3 +170,4 @@ The SDK is authored with strict TypeScript and exports all public request/respon
 ## Docs
 
 See the full docs in [`docs/`](./docs) and generated TypeDoc API reference in `docs/api-reference/`.
+Release workflow guidance is documented in [`docs/releasing.md`](./docs/releasing.md).

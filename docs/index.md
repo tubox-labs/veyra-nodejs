@@ -8,4 +8,5 @@
 - [Retries and timeouts](./retries-and-timeouts.md)
 - [Runtime compatibility](./runtime-compatibility.md)
 - [ESM/CJS](./esm-cjs.md)
+- [Releasing](./releasing.md)
 - API reference: `docs/api-reference/`

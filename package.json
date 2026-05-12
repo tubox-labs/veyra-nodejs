@@ -1,6 +1,6 @@
 {
   "name": "veyra",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "The official Veyra Node.js / TypeScript SDK",
   "author": "Veyra",
   "license": "MIT",
@@ -44,8 +44,9 @@
     "lint": "eslint src tests --ext .ts",
     "format": "prettier --write src tests docs examples",
     "docs": "typedoc --options typedoc.json",
-    "prepublishOnly": "node --loader tsx ./scripts/checkVersion.ts",
-    "smoke:live": "node --import tsx scripts/liveSmokeTest.ts"
+    "prepublishOnly": "node --import tsx ./scripts/checkVersion.ts",
+    "smoke:live": "node --import tsx scripts/liveSmokeTest.ts",
+    "ci:all": "npm run typecheck && npm run lint && npm test && npm run build && npm run docs"
   },
   "engines": {
     "node": ">=18.0.0"

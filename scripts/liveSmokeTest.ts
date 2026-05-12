@@ -7,7 +7,7 @@ interface SmokeResult {
 
 async function run(): Promise<SmokeResult> {
   const apiKey = process.env.VEYRA_API_KEY;
-  const baseURL = process.env.VEYRA_BASE_URL ?? "https://veyra.tubox.cloud";
+  const baseURL = process.env.VEYRA_BASE_URL || "https://veyra.tubox.cloud";
 
   if (!apiKey) {
     throw new Error("Missing VEYRA_API_KEY environment variable.");

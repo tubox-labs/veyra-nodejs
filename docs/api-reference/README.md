@@ -1,4 +1,4 @@
-**Veyra Node.js SDK v0.1.0**
+**Veyra Node.js SDK v1.0.0**
 
 ***
 
@@ -174,3 +174,4 @@ The SDK is authored with strict TypeScript and exports all public request/respon
 ## Docs
 
 See the full docs in [`docs/`](_media/docs) and generated TypeDoc API reference in `docs/api-reference/`.
+Release workflow guidance is documented in [`docs/releasing.md`](_media/releasing.md).

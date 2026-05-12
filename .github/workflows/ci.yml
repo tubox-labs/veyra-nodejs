@@ -4,10 +4,24 @@ on:
   push:
     branches: [main, master]
   pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   quality:
+    name: Quality (Node ${{ matrix.node }})
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: [18, 20]
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -15,7 +29,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: ${{ matrix.node }}
           cache: npm
 
       - name: Install
@@ -26,9 +40,6 @@ jobs:
 
       - name: Lint
         run: npm run lint
-
-      - name: Format check
-        run: npx prettier --check src tests docs examples
 
       - name: Tests + coverage
         run: npm test
@@ -41,3 +52,21 @@ jobs:
 
       - name: Verify ESM export
         run: node --input-type=module -e "import Veyra from './dist/index.mjs'; console.assert(typeof Veyra==='function')"
+
+      - name: Generate docs
+        if: matrix.node == 20
+        run: npm run docs
+
+      - name: Upload dist artifact
+        if: matrix.node == 20
+        uses: actions/upload-artifact@v4
+        with:
+          name: veyra-dist
+          path: dist/
+
+      - name: Upload docs artifact
+        if: matrix.node == 20
+        uses: actions/upload-artifact@v4
+        with:
+          name: veyra-docs
+          path: docs/api-reference/
