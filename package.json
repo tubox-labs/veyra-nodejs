@@ -45,7 +45,7 @@
     "format": "prettier --write src tests docs examples",
     "docs": "typedoc --options typedoc.json",
     "prepublishOnly": "node --loader tsx ./scripts/checkVersion.ts",
-    "smoke:live": "npx tsx scripts/liveSmokeTest.ts"
+    "smoke:live": "node --import tsx scripts/liveSmokeTest.ts"
   },
   "engines": {
     "node": ">=18.0.0"
