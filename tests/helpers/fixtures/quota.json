@@ -1,0 +1,12 @@
+{
+  "plan": "pro",
+  "limits": {
+    "daily_requests": 1000,
+    "daily_tokens": 100000
+  },
+  "usage": {
+    "requests_used_today": 100,
+    "tokens_used_today": 5000
+  },
+  "resets_at": "2026-05-13T00:00:00Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "cmpl_1",
+  "object": "text_completion",
+  "created": 1710000000,
+  "model": "gpt-5.4-mini",
+  "choices": [
+    { "index": 0, "text": "Legacy completion", "finish_reason": "stop" }
+  ],
+  "usage": {
+    "prompt_tokens": 5,
+    "completion_tokens": 3,
+    "total_tokens": 8
+  }
+}

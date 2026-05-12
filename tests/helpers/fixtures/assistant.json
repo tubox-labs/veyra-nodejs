@@ -1,0 +1,10 @@
+{
+  "id": "asst_1",
+  "conversation_id": "conv_1",
+  "message": "Assistant reply",
+  "usage": {
+    "prompt_tokens": 8,
+    "completion_tokens": 9,
+    "total_tokens": 17
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "resp_1",
+  "object": "response",
+  "created": 1710000000,
+  "model": "gpt-5.4-mini",
+  "status": "completed",
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "content": [{ "type": "output_text", "text": "Response output" }]
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4,
+    "completion_tokens": 6,
+    "total_tokens": 10
+  }
+}
