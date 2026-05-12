@@ -6,7 +6,7 @@
 
 # Interface: ReadinessStatus
 
-Defined in: src/types/misc.ts:9
+Defined in: [src/types/misc.ts:9](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/misc.ts#L9)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: src/types/misc.ts:9
 
 > **ready**: `boolean`
 
-Defined in: src/types/misc.ts:10
+Defined in: [src/types/misc.ts:10](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/misc.ts#L10)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: src/types/misc.ts:10
 
 > **checks**: `Record`\<`string`, `string`\>
 
-Defined in: src/types/misc.ts:11
+Defined in: [src/types/misc.ts:11](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/misc.ts#L11)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: src/types/misc.ts:11
 
 > `optional` **\_raw?**: `unknown`
 
-Defined in: src/types/shared.ts:23
+Defined in: [src/types/shared.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L23)
 
 #### Inherited from
 

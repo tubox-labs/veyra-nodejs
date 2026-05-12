@@ -6,7 +6,7 @@
 
 # Interface: BillingProfile
 
-Defined in: src/types/billing.ts:23
+Defined in: [src/types/billing.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L23)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: src/types/billing.ts:23
 
 > **id**: `string`
 
-Defined in: src/types/billing.ts:24
+Defined in: [src/types/billing.ts:24](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L24)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: src/types/billing.ts:24
 
 > **organizationName**: `string`
 
-Defined in: src/types/billing.ts:25
+Defined in: [src/types/billing.ts:25](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L25)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: src/types/billing.ts:25
 
 > **contactName**: `string`
 
-Defined in: src/types/billing.ts:26
+Defined in: [src/types/billing.ts:26](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L26)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: src/types/billing.ts:26
 
 > **contactEmail**: `string`
 
-Defined in: src/types/billing.ts:27
+Defined in: [src/types/billing.ts:27](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L27)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: src/types/billing.ts:27
 
 > **country**: `string`
 
-Defined in: src/types/billing.ts:28
+Defined in: [src/types/billing.ts:28](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L28)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: src/types/billing.ts:28
 
 > `optional` **taxId?**: `string`
 
-Defined in: src/types/billing.ts:29
+Defined in: [src/types/billing.ts:29](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L29)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: src/types/billing.ts:29
 
 > `optional` **\_raw?**: `unknown`
 
-Defined in: src/types/shared.ts:23
+Defined in: [src/types/shared.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L23)
 
 #### Inherited from
 

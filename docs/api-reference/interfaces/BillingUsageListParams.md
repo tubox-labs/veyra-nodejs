@@ -6,7 +6,7 @@
 
 # Interface: BillingUsageListParams
 
-Defined in: src/types/billing.ts:45
+Defined in: [src/types/billing.ts:45](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L45)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/billing.ts:45
 
 > `optional` **limit?**: `number`
 
-Defined in: src/types/billing.ts:46
+Defined in: [src/types/billing.ts:46](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L46)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/billing.ts:46
 
 > `optional` **offset?**: `number`
 
-Defined in: src/types/billing.ts:47
+Defined in: [src/types/billing.ts:47](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L47)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: src/types/billing.ts:47
 
 > `optional` **startDate?**: `string`
 
-Defined in: src/types/billing.ts:48
+Defined in: [src/types/billing.ts:48](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L48)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: src/types/billing.ts:48
 
 > `optional` **endDate?**: `string`
 
-Defined in: src/types/billing.ts:49
+Defined in: [src/types/billing.ts:49](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L49)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: src/types/billing.ts:49
 
 > `optional` **model?**: `string`
 
-Defined in: src/types/billing.ts:50
+Defined in: [src/types/billing.ts:50](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L50)

@@ -6,7 +6,7 @@
 
 # Class: VeyraPayloadTooLargeError
 
-Defined in: src/core/errors.ts:77
+Defined in: [src/core/errors.ts:77](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/errors.ts#L77)
 
 Received an error response from the Veyra API.
 
@@ -20,7 +20,7 @@ Received an error response from the Veyra API.
 
 > **new VeyraPayloadTooLargeError**(`message`, `options?`): `VeyraPayloadTooLargeError`
 
-Defined in: src/core/errors.ts:24
+Defined in: [src/core/errors.ts:24](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/errors.ts#L24)
 
 #### Parameters
 
@@ -55,6 +55,54 @@ Defined in: src/core/errors.ts:24
 [`VeyraBadRequestError`](VeyraBadRequestError.md).[`constructor`](VeyraBadRequestError.md#constructor)
 
 ## Properties
+
+### code
+
+> `readonly` **code**: `string` \| `undefined`
+
+Defined in: [src/core/errors.ts:19](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/errors.ts#L19)
+
+#### Inherited from
+
+[`VeyraBadRequestError`](VeyraBadRequestError.md).[`code`](VeyraBadRequestError.md#code)
+
+***
+
+### httpStatus
+
+> `readonly` **httpStatus**: `number`
+
+Defined in: [src/core/errors.ts:20](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/errors.ts#L20)
+
+#### Inherited from
+
+[`VeyraBadRequestError`](VeyraBadRequestError.md).[`httpStatus`](VeyraBadRequestError.md#httpstatus)
+
+***
+
+### requestId
+
+> `readonly` **requestId**: `string` \| `undefined`
+
+Defined in: [src/core/errors.ts:21](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/errors.ts#L21)
+
+#### Inherited from
+
+[`VeyraBadRequestError`](VeyraBadRequestError.md).[`requestId`](VeyraBadRequestError.md#requestid)
+
+***
+
+### headers
+
+> `readonly` **headers**: `Headers`
+
+Defined in: [src/core/errors.ts:22](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/errors.ts#L22)
+
+#### Inherited from
+
+[`VeyraBadRequestError`](VeyraBadRequestError.md).[`headers`](VeyraBadRequestError.md#headers)
+
+***
 
 ### stackTraceLimit
 
@@ -111,54 +159,6 @@ Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1078
 #### Inherited from
 
 [`VeyraBadRequestError`](VeyraBadRequestError.md).[`stack`](VeyraBadRequestError.md#stack)
-
-***
-
-### code
-
-> `readonly` **code**: `string` \| `undefined`
-
-Defined in: src/core/errors.ts:19
-
-#### Inherited from
-
-[`VeyraBadRequestError`](VeyraBadRequestError.md).[`code`](VeyraBadRequestError.md#code)
-
-***
-
-### httpStatus
-
-> `readonly` **httpStatus**: `number`
-
-Defined in: src/core/errors.ts:20
-
-#### Inherited from
-
-[`VeyraBadRequestError`](VeyraBadRequestError.md).[`httpStatus`](VeyraBadRequestError.md#httpstatus)
-
-***
-
-### requestId
-
-> `readonly` **requestId**: `string` \| `undefined`
-
-Defined in: src/core/errors.ts:21
-
-#### Inherited from
-
-[`VeyraBadRequestError`](VeyraBadRequestError.md).[`requestId`](VeyraBadRequestError.md#requestid)
-
-***
-
-### headers
-
-> `readonly` **headers**: `Headers`
-
-Defined in: src/core/errors.ts:22
-
-#### Inherited from
-
-[`VeyraBadRequestError`](VeyraBadRequestError.md).[`headers`](VeyraBadRequestError.md#headers)
 
 ## Methods
 

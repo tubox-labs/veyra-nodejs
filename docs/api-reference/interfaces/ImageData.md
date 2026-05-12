@@ -6,7 +6,7 @@
 
 # Interface: ImageData
 
-Defined in: src/types/images.ts:14
+Defined in: [src/types/images.ts:14](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/images.ts#L14)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/images.ts:14
 
 > `optional` **url?**: `string`
 
-Defined in: src/types/images.ts:15
+Defined in: [src/types/images.ts:15](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/images.ts#L15)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/images.ts:15
 
 > `optional` **b64Json?**: `string`
 
-Defined in: src/types/images.ts:16
+Defined in: [src/types/images.ts:16](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/images.ts#L16)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: src/types/images.ts:16
 
 > `optional` **revisedPrompt?**: `string`
 
-Defined in: src/types/images.ts:17
+Defined in: [src/types/images.ts:17](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/images.ts#L17)

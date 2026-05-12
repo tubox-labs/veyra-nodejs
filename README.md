@@ -1,9 +1,9 @@
 # Veyra Node.js SDK
 
-[![npm version](https://img.shields.io/npm/v/veyra.svg)](https://www.npmjs.com/package/veyra)
-[![Node.js](https://img.shields.io/node/v/veyra.svg)](https://nodejs.org)
+[![npm version](https://img.shields.io/npm/v/@tubox/veyra-sdk.svg)](https://www.npmjs.com/package/@tubox/veyra-sdk)
+[![Node.js](https://img.shields.io/node/v/@tubox/veyra-sdk.svg)](https://nodejs.org)
 [![TypeScript](https://img.shields.io/badge/typescript-strict-blue.svg)](https://www.typescriptlang.org)
-[![License](https://img.shields.io/npm/l/veyra.svg)](./LICENSE)
+[![License](https://img.shields.io/npm/l/@tubox/veyra-sdk.svg)](./LICENSE)
 [![CI](https://img.shields.io/github/actions/workflow/status/veyra/veyra-node/ci.yml)](#)
 
 The official Veyra SDK for Node.js and TypeScript. It provides strict typings, streaming via async iterables, built-in retry logic, and resource-based namespaces.
@@ -11,15 +11,15 @@ The official Veyra SDK for Node.js and TypeScript. It provides strict typings, s
 ## Installation
 
 ```bash
-npm install veyra
-# pnpm add veyra
-# yarn add veyra
+npm install @tubox/veyra-sdk
+# pnpm add @tubox/veyra-sdk
+# yarn add @tubox/veyra-sdk
 ```
 
 ## Quickstart
 
 ```ts
-import Veyra from "veyra";
+import Veyra from "@tubox/veyra-sdk";
 
 const client = new Veyra({ apiKey: process.env.VEYRA_API_KEY });
 
@@ -32,7 +32,7 @@ console.log(completion.choices[0]?.message.content);
 ```
 
 ```ts
-import Veyra from "veyra";
+import Veyra from "@tubox/veyra-sdk";
 
 const client = new Veyra();
 const stream = await client.chat.completions.create({
@@ -97,7 +97,7 @@ while (current.hasMore) {
 ## Error Handling
 
 ```ts
-import { VeyraAPIError, VeyraRateLimitError } from "veyra";
+import { VeyraAPIError, VeyraRateLimitError } from "@tubox/veyra-sdk";
 
 try {
   await client.chat.completions.create({ ... });
@@ -154,13 +154,13 @@ await client.chat.completions.create(params, { signal: controller.signal });
 ESM:
 
 ```ts
-import Veyra from "veyra";
+import Veyra from "@tubox/veyra-sdk";
 ```
 
 CJS:
 
 ```js
-const { Veyra } = require("veyra");
+const { Veyra } = require("@tubox/veyra-sdk");
 ```
 
 ## TypeScript

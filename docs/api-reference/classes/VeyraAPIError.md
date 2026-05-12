@@ -6,7 +6,7 @@
 
 # Class: VeyraAPIError
 
-Defined in: src/core/errors.ts:18
+Defined in: [src/core/errors.ts:18](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/errors.ts#L18)
 
 Received an error response from the Veyra API.
 
@@ -34,7 +34,7 @@ Received an error response from the Veyra API.
 
 > **new VeyraAPIError**(`message`, `options?`): `VeyraAPIError`
 
-Defined in: src/core/errors.ts:24
+Defined in: [src/core/errors.ts:24](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/errors.ts#L24)
 
 #### Parameters
 
@@ -69,6 +69,38 @@ Defined in: src/core/errors.ts:24
 [`VeyraError`](VeyraError.md).[`constructor`](VeyraError.md#constructor)
 
 ## Properties
+
+### code
+
+> `readonly` **code**: `string` \| `undefined`
+
+Defined in: [src/core/errors.ts:19](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/errors.ts#L19)
+
+***
+
+### httpStatus
+
+> `readonly` **httpStatus**: `number`
+
+Defined in: [src/core/errors.ts:20](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/errors.ts#L20)
+
+***
+
+### requestId
+
+> `readonly` **requestId**: `string` \| `undefined`
+
+Defined in: [src/core/errors.ts:21](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/errors.ts#L21)
+
+***
+
+### headers
+
+> `readonly` **headers**: `Headers`
+
+Defined in: [src/core/errors.ts:22](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/errors.ts#L22)
+
+***
 
 ### stackTraceLimit
 
@@ -125,38 +157,6 @@ Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1078
 #### Inherited from
 
 [`VeyraError`](VeyraError.md).[`stack`](VeyraError.md#stack)
-
-***
-
-### code
-
-> `readonly` **code**: `string` \| `undefined`
-
-Defined in: src/core/errors.ts:19
-
-***
-
-### httpStatus
-
-> `readonly` **httpStatus**: `number`
-
-Defined in: src/core/errors.ts:20
-
-***
-
-### requestId
-
-> `readonly` **requestId**: `string` \| `undefined`
-
-Defined in: src/core/errors.ts:21
-
-***
-
-### headers
-
-> `readonly` **headers**: `Headers`
-
-Defined in: src/core/errors.ts:22
 
 ## Methods
 

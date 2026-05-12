@@ -6,7 +6,7 @@
 
 # Interface: AssistantResponse
 
-Defined in: src/types/assistant.ts:21
+Defined in: [src/types/assistant.ts:21](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/assistant.ts#L21)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: src/types/assistant.ts:21
 
 > **id**: `string`
 
-Defined in: src/types/assistant.ts:22
+Defined in: [src/types/assistant.ts:22](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/assistant.ts#L22)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: src/types/assistant.ts:22
 
 > **conversationId**: `string`
 
-Defined in: src/types/assistant.ts:23
+Defined in: [src/types/assistant.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/assistant.ts#L23)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: src/types/assistant.ts:23
 
 > **message**: `string`
 
-Defined in: src/types/assistant.ts:24
+Defined in: [src/types/assistant.ts:24](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/assistant.ts#L24)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: src/types/assistant.ts:24
 
 > `optional` **usage?**: [`Usage`](Usage.md) \| `null`
 
-Defined in: src/types/assistant.ts:25
+Defined in: [src/types/assistant.ts:25](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/assistant.ts#L25)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: src/types/assistant.ts:25
 
 > `optional` **\_raw?**: `unknown`
 
-Defined in: src/types/shared.ts:23
+Defined in: [src/types/shared.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L23)
 
 #### Inherited from
 

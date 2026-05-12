@@ -6,7 +6,7 @@
 
 # Interface: BillingUsagePage
 
-Defined in: src/types/billing.ts:53
+Defined in: [src/types/billing.ts:53](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L53)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: src/types/billing.ts:53
 
 > **items**: [`UsageRecord`](UsageRecord.md)[]
 
-Defined in: src/types/billing.ts:54
+Defined in: [src/types/billing.ts:54](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L54)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: src/types/billing.ts:54
 
 > **total**: `number`
 
-Defined in: src/types/billing.ts:55
+Defined in: [src/types/billing.ts:55](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L55)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: src/types/billing.ts:55
 
 > **offset**: `number`
 
-Defined in: src/types/billing.ts:56
+Defined in: [src/types/billing.ts:56](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L56)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: src/types/billing.ts:56
 
 > **limit**: `number`
 
-Defined in: src/types/billing.ts:57
+Defined in: [src/types/billing.ts:57](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L57)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: src/types/billing.ts:57
 
 > **hasMore**: `boolean`
 
-Defined in: src/types/billing.ts:58
+Defined in: [src/types/billing.ts:58](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L58)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: src/types/billing.ts:58
 
 > `optional` **\_raw?**: `unknown`
 
-Defined in: src/types/shared.ts:23
+Defined in: [src/types/shared.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L23)
 
 #### Inherited from
 

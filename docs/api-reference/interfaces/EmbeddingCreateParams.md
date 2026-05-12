@@ -6,7 +6,7 @@
 
 # Interface: EmbeddingCreateParams
 
-Defined in: src/types/embeddings.ts:3
+Defined in: [src/types/embeddings.ts:3](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/embeddings.ts#L3)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/embeddings.ts:3
 
 > **model**: `string`
 
-Defined in: src/types/embeddings.ts:4
+Defined in: [src/types/embeddings.ts:4](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/embeddings.ts#L4)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: src/types/embeddings.ts:4
 
 > **input**: `string` \| `string`[]
 
-Defined in: src/types/embeddings.ts:5
+Defined in: [src/types/embeddings.ts:5](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/embeddings.ts#L5)

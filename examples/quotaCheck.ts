@@ -1,4 +1,4 @@
-import Veyra from "veyra";
+import Veyra from "@tubox/veyra-sdk";
 
 const client = new Veyra();
 const status = await client.quota.status();

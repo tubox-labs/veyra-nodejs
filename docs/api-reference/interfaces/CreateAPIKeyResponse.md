@@ -6,7 +6,7 @@
 
 # Interface: CreateAPIKeyResponse
 
-Defined in: src/types/apiKeys.ts:26
+Defined in: [src/types/apiKeys.ts:26](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/apiKeys.ts#L26)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: src/types/apiKeys.ts:26
 
 > **id**: `string`
 
-Defined in: src/types/apiKeys.ts:27
+Defined in: [src/types/apiKeys.ts:27](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/apiKeys.ts#L27)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: src/types/apiKeys.ts:27
 
 > **key**: `string`
 
-Defined in: src/types/apiKeys.ts:28
+Defined in: [src/types/apiKeys.ts:28](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/apiKeys.ts#L28)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: src/types/apiKeys.ts:28
 
 > **name**: `string`
 
-Defined in: src/types/apiKeys.ts:29
+Defined in: [src/types/apiKeys.ts:29](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/apiKeys.ts#L29)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: src/types/apiKeys.ts:29
 
 > **scopes**: `string`[]
 
-Defined in: src/types/apiKeys.ts:30
+Defined in: [src/types/apiKeys.ts:30](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/apiKeys.ts#L30)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: src/types/apiKeys.ts:30
 
 > **createdAt**: `string`
 
-Defined in: src/types/apiKeys.ts:31
+Defined in: [src/types/apiKeys.ts:31](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/apiKeys.ts#L31)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: src/types/apiKeys.ts:31
 
 > `optional` **expiresAt?**: `string`
 
-Defined in: src/types/apiKeys.ts:32
+Defined in: [src/types/apiKeys.ts:32](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/apiKeys.ts#L32)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: src/types/apiKeys.ts:32
 
 > `optional` **\_raw?**: `unknown`
 
-Defined in: src/types/shared.ts:23
+Defined in: [src/types/shared.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L23)
 
 #### Inherited from
 

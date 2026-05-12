@@ -6,7 +6,7 @@
 
 # Interface: ResponseCreateParamsStreaming
 
-Defined in: src/types/responses.ts:20
+Defined in: [src/types/responses.ts:20](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L20)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: src/types/responses.ts:20
 
 > **model**: `string`
 
-Defined in: src/types/responses.ts:9
+Defined in: [src/types/responses.ts:9](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L9)
 
 #### Inherited from
 
@@ -30,7 +30,7 @@ Defined in: src/types/responses.ts:9
 
 > **input**: `string` \| [`ResponseInputText`](ResponseInputText.md)[]
 
-Defined in: src/types/responses.ts:10
+Defined in: [src/types/responses.ts:10](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L10)
 
 #### Inherited from
 
@@ -42,7 +42,7 @@ Defined in: src/types/responses.ts:10
 
 > `optional` **temperature?**: `number`
 
-Defined in: src/types/responses.ts:11
+Defined in: [src/types/responses.ts:11](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L11)
 
 #### Inherited from
 
@@ -54,7 +54,7 @@ Defined in: src/types/responses.ts:11
 
 > `optional` **topP?**: `number`
 
-Defined in: src/types/responses.ts:12
+Defined in: [src/types/responses.ts:12](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L12)
 
 #### Inherited from
 
@@ -66,7 +66,7 @@ Defined in: src/types/responses.ts:12
 
 > `optional` **maxOutputTokens?**: `number`
 
-Defined in: src/types/responses.ts:13
+Defined in: [src/types/responses.ts:13](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L13)
 
 #### Inherited from
 
@@ -78,4 +78,4 @@ Defined in: src/types/responses.ts:13
 
 > **stream**: `true`
 
-Defined in: src/types/responses.ts:21
+Defined in: [src/types/responses.ts:21](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L21)

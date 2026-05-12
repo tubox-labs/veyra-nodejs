@@ -1,7 +1,7 @@
 # Quickstart
 
 ```ts
-import Veyra from "veyra";
+import Veyra from "@tubox/veyra-sdk";
 
 const client = new Veyra({ apiKey: process.env.VEYRA_API_KEY });
 const completion = await client.chat.completions.create({

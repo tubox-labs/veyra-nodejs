@@ -6,7 +6,7 @@
 
 # Interface: RequestOptions
 
-Defined in: src/core/requestOptions.ts:4
+Defined in: [src/core/requestOptions.ts:4](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/requestOptions.ts#L4)
 
 Per-request overrides that can be passed to any SDK method as the last argument.
 
@@ -16,7 +16,7 @@ Per-request overrides that can be passed to any SDK method as the last argument.
 
 > `optional` **headers?**: `Record`\<`string`, `string`\>
 
-Defined in: src/core/requestOptions.ts:9
+Defined in: [src/core/requestOptions.ts:9](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/requestOptions.ts#L9)
 
 Additional HTTP headers merged on top of the client defaults.
 These take precedence over client-level `defaultHeaders`.
@@ -27,7 +27,7 @@ These take precedence over client-level `defaultHeaders`.
 
 > `optional` **timeout?**: `number`
 
-Defined in: src/core/requestOptions.ts:15
+Defined in: [src/core/requestOptions.ts:15](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/requestOptions.ts#L15)
 
 Request timeout in milliseconds.
 Overrides the client-level `timeout` for this single request.
@@ -38,7 +38,7 @@ Overrides the client-level `timeout` for this single request.
 
 > `optional` **maxRetries?**: `number`
 
-Defined in: src/core/requestOptions.ts:21
+Defined in: [src/core/requestOptions.ts:21](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/requestOptions.ts#L21)
 
 Override the number of automatic retries for this single request.
 Pass `0` to disable retries.
@@ -49,7 +49,7 @@ Pass `0` to disable retries.
 
 > `optional` **baseURL?**: `string`
 
-Defined in: src/core/requestOptions.ts:27
+Defined in: [src/core/requestOptions.ts:27](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/requestOptions.ts#L27)
 
 Override the base URL for this single request.
 Useful for region-specific routing.
@@ -60,7 +60,7 @@ Useful for region-specific routing.
 
 > `optional` **signal?**: `AbortSignal`
 
-Defined in: src/core/requestOptions.ts:33
+Defined in: [src/core/requestOptions.ts:33](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/requestOptions.ts#L33)
 
 Abort signal. When the signal fires the in-flight request is cancelled
 and a [VeyraAPIConnectionAbortedError](../classes/VeyraAPIConnectionAbortedError.md) is thrown.

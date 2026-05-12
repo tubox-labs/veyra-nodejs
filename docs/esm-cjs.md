@@ -3,11 +3,11 @@
 ESM:
 
 ```ts
-import Veyra from "veyra";
+import Veyra from "@tubox/veyra-sdk";
 ```
 
 CJS:
 
 ```js
-const { Veyra } = require("veyra");
+const { Veyra } = require("@tubox/veyra-sdk");
 ```

@@ -6,7 +6,7 @@
 
 # Interface: ResponseStreamEvent
 
-Defined in: src/types/responses.ts:47
+Defined in: [src/types/responses.ts:47](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L47)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: src/types/responses.ts:47
 
 > **type**: `string`
 
-Defined in: src/types/responses.ts:48
+Defined in: [src/types/responses.ts:48](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L48)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: src/types/responses.ts:48
 
 > `optional` **responseId?**: `string`
 
-Defined in: src/types/responses.ts:49
+Defined in: [src/types/responses.ts:49](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L49)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: src/types/responses.ts:49
 
 > `optional` **outputIndex?**: `number`
 
-Defined in: src/types/responses.ts:50
+Defined in: [src/types/responses.ts:50](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L50)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: src/types/responses.ts:50
 
 > `optional` **contentIndex?**: `number`
 
-Defined in: src/types/responses.ts:51
+Defined in: [src/types/responses.ts:51](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L51)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: src/types/responses.ts:51
 
 > `optional` **delta?**: `string`
 
-Defined in: src/types/responses.ts:52
+Defined in: [src/types/responses.ts:52](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L52)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: src/types/responses.ts:52
 
 > `optional` **done?**: `boolean`
 
-Defined in: src/types/responses.ts:53
+Defined in: [src/types/responses.ts:53](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L53)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: src/types/responses.ts:53
 
 > `optional` **\_raw?**: `unknown`
 
-Defined in: src/types/shared.ts:23
+Defined in: [src/types/shared.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L23)
 
 #### Inherited from
 

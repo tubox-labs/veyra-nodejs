@@ -6,7 +6,7 @@
 
 # Class: VeyraAPIConnectionError
 
-Defined in: src/core/errors.ts:80
+Defined in: [src/core/errors.ts:80](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/errors.ts#L80)
 
 Base class for all errors thrown by the Veyra SDK.
 
@@ -25,7 +25,7 @@ Base class for all errors thrown by the Veyra SDK.
 
 > **new VeyraAPIConnectionError**(`message`, `cause?`): `VeyraAPIConnectionError`
 
-Defined in: src/core/errors.ts:83
+Defined in: [src/core/errors.ts:83](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/errors.ts#L83)
 
 #### Parameters
 
@@ -46,6 +46,14 @@ Defined in: src/core/errors.ts:83
 [`VeyraError`](VeyraError.md).[`constructor`](VeyraError.md#constructor)
 
 ## Properties
+
+### cause
+
+> `readonly` **cause**: `unknown`
+
+Defined in: [src/core/errors.ts:81](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/errors.ts#L81)
+
+***
 
 ### stackTraceLimit
 
@@ -102,14 +110,6 @@ Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1078
 #### Inherited from
 
 [`VeyraError`](VeyraError.md).[`stack`](VeyraError.md#stack)
-
-***
-
-### cause
-
-> `readonly` **cause**: `unknown`
-
-Defined in: src/core/errors.ts:81
 
 ## Methods
 

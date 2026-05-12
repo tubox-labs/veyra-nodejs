@@ -6,7 +6,7 @@
 
 # Interface: ChatCompletion
 
-Defined in: src/types/chat.ts:54
+Defined in: [src/types/chat.ts:54](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L54)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: src/types/chat.ts:54
 
 > **id**: `string`
 
-Defined in: src/types/chat.ts:55
+Defined in: [src/types/chat.ts:55](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L55)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: src/types/chat.ts:55
 
 > **object**: `"chat.completion"`
 
-Defined in: src/types/chat.ts:56
+Defined in: [src/types/chat.ts:56](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L56)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: src/types/chat.ts:56
 
 > **created**: `number`
 
-Defined in: src/types/chat.ts:57
+Defined in: [src/types/chat.ts:57](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L57)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: src/types/chat.ts:57
 
 > **model**: `string`
 
-Defined in: src/types/chat.ts:58
+Defined in: [src/types/chat.ts:58](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L58)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: src/types/chat.ts:58
 
 > **choices**: [`Choice`](Choice.md)[]
 
-Defined in: src/types/chat.ts:59
+Defined in: [src/types/chat.ts:59](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L59)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: src/types/chat.ts:59
 
 > **usage**: [`Usage`](Usage.md) \| `null`
 
-Defined in: src/types/chat.ts:60
+Defined in: [src/types/chat.ts:60](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L60)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: src/types/chat.ts:60
 
 > **systemFingerprint**: `string` \| `null`
 
-Defined in: src/types/chat.ts:61
+Defined in: [src/types/chat.ts:61](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L61)
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: src/types/chat.ts:61
 
 > `optional` **\_raw?**: `unknown`
 
-Defined in: src/types/shared.ts:23
+Defined in: [src/types/shared.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L23)
 
 #### Inherited from
 

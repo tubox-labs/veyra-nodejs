@@ -1,5 +1,5 @@
 {
-  "name": "veyra",
+  "name": "@tubox/veyra-sdk",
   "version": "1.0.0",
   "description": "The official Veyra Node.js / TypeScript SDK",
   "author": "Veyra",

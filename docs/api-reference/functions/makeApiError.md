@@ -8,7 +8,7 @@
 
 > **makeApiError**(`options`): [`VeyraAPIError`](../classes/VeyraAPIError.md)
 
-Defined in: src/core/errors.ts:115
+Defined in: [src/core/errors.ts:115](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/errors.ts#L115)
 
 Map `(status, error.code, headers)` to the most specific error subclass.
 

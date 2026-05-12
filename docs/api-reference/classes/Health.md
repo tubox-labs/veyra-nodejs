@@ -6,7 +6,7 @@
 
 # Class: Health
 
-Defined in: src/resources/health.ts:5
+Defined in: [src/resources/health.ts:5](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/health.ts#L5)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: src/resources/health.ts:5
 
 > **new Health**(`_client`): `Health`
 
-Defined in: src/resources/health.ts:6
+Defined in: [src/resources/health.ts:6](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/health.ts#L6)
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: src/resources/health.ts:6
 
 > **check**(`options?`): `Promise`\<[`HealthStatus`](../interfaces/HealthStatus.md)\>
 
-Defined in: src/resources/health.ts:11
+Defined in: [src/resources/health.ts:11](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/health.ts#L11)
 
 #### Parameters
 
@@ -50,7 +50,7 @@ Defined in: src/resources/health.ts:11
 
 > **ready**(`options?`): `Promise`\<[`ReadinessStatus`](../interfaces/ReadinessStatus.md)\>
 
-Defined in: src/resources/health.ts:24
+Defined in: [src/resources/health.ts:24](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/health.ts#L24)
 
 #### Parameters
 

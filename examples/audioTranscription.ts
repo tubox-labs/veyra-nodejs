@@ -1,4 +1,4 @@
-import Veyra from "veyra";
+import Veyra from "@tubox/veyra-sdk";
 import { readFile } from "node:fs/promises";
 
 const client = new Veyra();

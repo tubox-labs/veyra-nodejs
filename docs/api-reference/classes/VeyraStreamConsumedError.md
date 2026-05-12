@@ -6,7 +6,7 @@
 
 # Class: VeyraStreamConsumedError
 
-Defined in: src/core/errors.ts:91
+Defined in: [src/core/errors.ts:91](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/errors.ts#L91)
 
 Base class for all errors thrown by the Veyra SDK.
 
@@ -20,7 +20,7 @@ Base class for all errors thrown by the Veyra SDK.
 
 > **new VeyraStreamConsumedError**(`message`): `VeyraStreamConsumedError`
 
-Defined in: src/core/errors.ts:8
+Defined in: [src/core/errors.ts:8](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/errors.ts#L8)
 
 #### Parameters
 

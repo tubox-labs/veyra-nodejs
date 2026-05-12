@@ -6,7 +6,7 @@
 
 # Interface: HealthStatus
 
-Defined in: src/types/misc.ts:3
+Defined in: [src/types/misc.ts:3](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/misc.ts#L3)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: src/types/misc.ts:3
 
 > **status**: `"ok"` \| `"degraded"` \| `"down"`
 
-Defined in: src/types/misc.ts:4
+Defined in: [src/types/misc.ts:4](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/misc.ts#L4)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: src/types/misc.ts:4
 
 > `optional` **version?**: `string`
 
-Defined in: src/types/misc.ts:5
+Defined in: [src/types/misc.ts:5](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/misc.ts#L5)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: src/types/misc.ts:5
 
 > `optional` **timestamp?**: `string`
 
-Defined in: src/types/misc.ts:6
+Defined in: [src/types/misc.ts:6](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/misc.ts#L6)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: src/types/misc.ts:6
 
 > `optional` **\_raw?**: `unknown`
 
-Defined in: src/types/shared.ts:23
+Defined in: [src/types/shared.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L23)
 
 #### Inherited from
 

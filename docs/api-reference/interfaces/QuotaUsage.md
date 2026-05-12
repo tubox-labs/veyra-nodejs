@@ -6,7 +6,7 @@
 
 # Interface: QuotaUsage
 
-Defined in: src/types/quota.ts:9
+Defined in: [src/types/quota.ts:9](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/quota.ts#L9)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/quota.ts:9
 
 > **requestsUsedToday**: `number`
 
-Defined in: src/types/quota.ts:10
+Defined in: [src/types/quota.ts:10](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/quota.ts#L10)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/quota.ts:10
 
 > **tokensUsedToday**: `number`
 
-Defined in: src/types/quota.ts:11
+Defined in: [src/types/quota.ts:11](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/quota.ts#L11)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: src/types/quota.ts:11
 
 > `optional` **spendUsdMonthToDate?**: `number`
 
-Defined in: src/types/quota.ts:12
+Defined in: [src/types/quota.ts:12](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/quota.ts#L12)

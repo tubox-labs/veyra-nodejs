@@ -6,7 +6,7 @@
 
 # Interface: TextCompletionChoiceDelta
 
-Defined in: src/types/completions.ts:41
+Defined in: [src/types/completions.ts:41](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/completions.ts#L41)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/completions.ts:41
 
 > **index**: `number`
 
-Defined in: src/types/completions.ts:42
+Defined in: [src/types/completions.ts:42](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/completions.ts#L42)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/completions.ts:42
 
 > `optional` **text?**: `string`
 
-Defined in: src/types/completions.ts:43
+Defined in: [src/types/completions.ts:43](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/completions.ts#L43)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: src/types/completions.ts:43
 
 > **finishReason**: `string` \| `null`
 
-Defined in: src/types/completions.ts:44
+Defined in: [src/types/completions.ts:44](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/completions.ts#L44)

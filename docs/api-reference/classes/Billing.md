@@ -6,7 +6,7 @@
 
 # Class: Billing
 
-Defined in: src/resources/billing/index.ts:5
+Defined in: [src/resources/billing/index.ts:5](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/billing/index.ts#L5)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: src/resources/billing/index.ts:5
 
 > **new Billing**(`client`): `Billing`
 
-Defined in: src/resources/billing/index.ts:9
+Defined in: [src/resources/billing/index.ts:9](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/billing/index.ts#L9)
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: src/resources/billing/index.ts:9
 
 > `readonly` **usage**: `Usage`
 
-Defined in: src/resources/billing/index.ts:6
+Defined in: [src/resources/billing/index.ts:6](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/billing/index.ts#L6)
 
 ***
 
@@ -40,4 +40,4 @@ Defined in: src/resources/billing/index.ts:6
 
 > `readonly` **profile**: `Profile`
 
-Defined in: src/resources/billing/index.ts:7
+Defined in: [src/resources/billing/index.ts:7](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/billing/index.ts#L7)

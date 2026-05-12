@@ -6,7 +6,7 @@
 
 # Class: Responses
 
-Defined in: src/resources/responses.ts:12
+Defined in: [src/resources/responses.ts:12](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/responses.ts#L12)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: src/resources/responses.ts:12
 
 > **new Responses**(`_client`): `Responses`
 
-Defined in: src/resources/responses.ts:13
+Defined in: [src/resources/responses.ts:13](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/responses.ts#L13)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: src/resources/responses.ts:13
 
 > **create**(`params`, `options?`): `Promise`\<[`VeyraResponse`](../interfaces/VeyraResponse.md)\>
 
-Defined in: src/resources/responses.ts:15
+Defined in: [src/resources/responses.ts:15](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/responses.ts#L15)
 
 ##### Parameters
 
@@ -54,7 +54,7 @@ Defined in: src/resources/responses.ts:15
 
 > **create**(`params`, `options?`): `Promise`\<[`Stream`](Stream.md)\<[`ResponseStreamEvent`](../interfaces/ResponseStreamEvent.md)\>\>
 
-Defined in: src/resources/responses.ts:20
+Defined in: [src/resources/responses.ts:20](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/responses.ts#L20)
 
 ##### Parameters
 

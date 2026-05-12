@@ -6,7 +6,7 @@
 
 # Interface: BillingAccess
 
-Defined in: src/types/billing.ts:32
+Defined in: [src/types/billing.ts:32](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L32)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: src/types/billing.ts:32
 
 > **hasAccess**: `boolean`
 
-Defined in: src/types/billing.ts:33
+Defined in: [src/types/billing.ts:33](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L33)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: src/types/billing.ts:33
 
 > `optional` **reason?**: `string`
 
-Defined in: src/types/billing.ts:34
+Defined in: [src/types/billing.ts:34](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L34)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: src/types/billing.ts:34
 
 > `optional` **\_raw?**: `unknown`
 
-Defined in: src/types/shared.ts:23
+Defined in: [src/types/shared.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L23)
 
 #### Inherited from
 

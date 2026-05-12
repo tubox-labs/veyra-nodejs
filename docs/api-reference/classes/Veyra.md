@@ -6,7 +6,7 @@
 
 # Class: Veyra
 
-Defined in: src/index.ts:15
+Defined in: [src/index.ts:15](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/index.ts#L15)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: src/index.ts:15
 
 > **new Veyra**(`options?`): `Veyra`
 
-Defined in: src/index.ts:41
+Defined in: [src/index.ts:41](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/index.ts#L41)
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: src/index.ts:41
 
 > `readonly` **apiKey**: `string`
 
-Defined in: src/core/client.ts:55
+Defined in: [src/core/client.ts:55](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/client.ts#L55)
 
 #### Inherited from
 
@@ -52,7 +52,7 @@ Defined in: src/core/client.ts:55
 
 > `readonly` **baseURL**: `string`
 
-Defined in: src/core/client.ts:56
+Defined in: [src/core/client.ts:56](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/client.ts#L56)
 
 #### Inherited from
 
@@ -64,7 +64,7 @@ Defined in: src/core/client.ts:56
 
 > `readonly` **timeout**: `number`
 
-Defined in: src/core/client.ts:57
+Defined in: [src/core/client.ts:57](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/client.ts#L57)
 
 #### Inherited from
 
@@ -76,7 +76,7 @@ Defined in: src/core/client.ts:57
 
 > `readonly` **maxRetries**: `number`
 
-Defined in: src/core/client.ts:58
+Defined in: [src/core/client.ts:58](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/client.ts#L58)
 
 #### Inherited from
 
@@ -88,7 +88,7 @@ Defined in: src/core/client.ts:58
 
 > `protected` `readonly` **\_defaultHeaders**: `Record`\<`string`, `string`\>
 
-Defined in: src/core/client.ts:60
+Defined in: [src/core/client.ts:60](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/client.ts#L60)
 
 #### Inherited from
 
@@ -100,7 +100,7 @@ Defined in: src/core/client.ts:60
 
 > `protected` `readonly` **\_fetch**: \{(`input`, `init?`): `Promise`\<`Response`\>; (`input`, `init?`): `Promise`\<`Response`\>; \}
 
-Defined in: src/core/client.ts:61
+Defined in: [src/core/client.ts:61](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/client.ts#L61)
 
 #### Call Signature
 
@@ -152,7 +152,7 @@ Defined in: src/core/client.ts:61
 
 > `protected` `readonly` **\_rawResponseMode**: `boolean`
 
-Defined in: src/core/client.ts:62
+Defined in: [src/core/client.ts:62](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/client.ts#L62)
 
 #### Inherited from
 
@@ -164,7 +164,7 @@ Defined in: src/core/client.ts:62
 
 > `readonly` **chat**: [`Chat`](Chat.md)
 
-Defined in: src/index.ts:17
+Defined in: [src/index.ts:17](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/index.ts#L17)
 
 Chat completion endpoints: `client.chat.completions.create(...)`
 
@@ -174,7 +174,7 @@ Chat completion endpoints: `client.chat.completions.create(...)`
 
 > `readonly` **completions**: [`Completions`](Completions.md)
 
-Defined in: src/index.ts:19
+Defined in: [src/index.ts:19](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/index.ts#L19)
 
 Legacy text completion endpoint: `client.completions.create(...)`
 
@@ -184,7 +184,7 @@ Legacy text completion endpoint: `client.completions.create(...)`
 
 > `readonly` **responses**: [`Responses`](Responses.md)
 
-Defined in: src/index.ts:21
+Defined in: [src/index.ts:21](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/index.ts#L21)
 
 OpenAI Responses API wrapper: `client.responses.create(...)`
 
@@ -194,7 +194,7 @@ OpenAI Responses API wrapper: `client.responses.create(...)`
 
 > `readonly` **embeddings**: [`Embeddings`](Embeddings.md)
 
-Defined in: src/index.ts:23
+Defined in: [src/index.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/index.ts#L23)
 
 Embedding generation: `client.embeddings.create(...)`
 
@@ -204,7 +204,7 @@ Embedding generation: `client.embeddings.create(...)`
 
 > `readonly` **images**: [`Images`](Images.md)
 
-Defined in: src/index.ts:25
+Defined in: [src/index.ts:25](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/index.ts#L25)
 
 Image generation: `client.images.generations.create(...)`
 
@@ -214,7 +214,7 @@ Image generation: `client.images.generations.create(...)`
 
 > `readonly` **audio**: [`Audio`](Audio.md)
 
-Defined in: src/index.ts:27
+Defined in: [src/index.ts:27](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/index.ts#L27)
 
 Audio transcription: `client.audio.transcriptions.create(...)`
 
@@ -224,7 +224,7 @@ Audio transcription: `client.audio.transcriptions.create(...)`
 
 > `readonly` **models**: [`Models`](Models.md)
 
-Defined in: src/index.ts:29
+Defined in: [src/index.ts:29](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/index.ts#L29)
 
 Model listing and retrieval: `client.models.list()` / `.retrieve(id)`
 
@@ -234,7 +234,7 @@ Model listing and retrieval: `client.models.list()` / `.retrieve(id)`
 
 > `readonly` **quota**: [`Quota`](Quota.md)
 
-Defined in: src/index.ts:31
+Defined in: [src/index.ts:31](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/index.ts#L31)
 
 Quota status and plans: `client.quota.status()`
 
@@ -244,7 +244,7 @@ Quota status and plans: `client.quota.status()`
 
 > `readonly` **billing**: [`Billing`](Billing.md)
 
-Defined in: src/index.ts:33
+Defined in: [src/index.ts:33](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/index.ts#L33)
 
 Billing usage, profile, and access: `client.billing.usage.list()`
 
@@ -254,7 +254,7 @@ Billing usage, profile, and access: `client.billing.usage.list()`
 
 > `readonly` **apiKeys**: [`APIKeys`](APIKeys.md)
 
-Defined in: src/index.ts:35
+Defined in: [src/index.ts:35](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/index.ts#L35)
 
 API key management: `client.apiKeys.create(...)`
 
@@ -264,7 +264,7 @@ API key management: `client.apiKeys.create(...)`
 
 > `readonly` **assistant**: [`Assistant`](Assistant.md)
 
-Defined in: src/index.ts:37
+Defined in: [src/index.ts:37](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/index.ts#L37)
 
 In-app assistant: `client.assistant.chat(...)`
 
@@ -274,7 +274,7 @@ In-app assistant: `client.assistant.chat(...)`
 
 > `readonly` **health**: [`Health`](Health.md)
 
-Defined in: src/index.ts:39
+Defined in: [src/index.ts:39](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/index.ts#L39)
 
 Platform health checks: `client.health.check()`
 
@@ -286,7 +286,7 @@ Platform health checks: `client.health.check()`
 
 > **get** **withRawResponse**(): `Veyra`
 
-Defined in: src/index.ts:60
+Defined in: [src/index.ts:60](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/index.ts#L60)
 
 Returns a new client variant that resolves to `APIResponse<T>` wrappers.
 
@@ -300,7 +300,7 @@ Returns a new client variant that resolves to `APIResponse<T>` wrappers.
 
 > `protected` **\_cloneClientOptions**(`rawResponseMode`): `InternalClientOptions`
 
-Defined in: src/core/client.ts:89
+Defined in: [src/core/client.ts:89](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/client.ts#L89)
 
 #### Parameters
 
@@ -322,7 +322,7 @@ Defined in: src/core/client.ts:89
 
 > `protected` **\_buildHeaders**(`extra?`, `hasBody?`, `isMultipart?`): `Record`\<`string`, `string`\>
 
-Defined in: src/core/client.ts:102
+Defined in: [src/core/client.ts:102](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/client.ts#L102)
 
 Build the merged headers for a single request.
 
@@ -354,7 +354,7 @@ Build the merged headers for a single request.
 
 > `protected` **\_request**\<`T`\>(`method`, `path`, `body?`, `params?`, `opts?`): `Promise`\<`T` \| [`APIResponse`](../interfaces/APIResponse.md)\<`T`\>\>
 
-Defined in: src/core/client.ts:119
+Defined in: [src/core/client.ts:119](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/client.ts#L119)
 
 Core request dispatcher. Handles serialisation, timeout, retry, and error mapping.
 
@@ -400,7 +400,7 @@ Core request dispatcher. Handles serialisation, timeout, retry, and error mappin
 
 > `protected` **\_requestRaw**(`method`, `path`, `body?`, `params?`, `opts?`): `Promise`\<`Response`\>
 
-Defined in: src/core/client.ts:151
+Defined in: [src/core/client.ts:151](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/client.ts#L151)
 
 Variant that returns the raw Response.
 
@@ -440,7 +440,7 @@ Variant that returns the raw Response.
 
 > `protected` **\_shouldRetry**(`response`, `attempt`, `maxRetries`): `boolean`
 
-Defined in: src/core/client.ts:217
+Defined in: [src/core/client.ts:217](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/client.ts#L217)
 
 Whether this status code + body should be retried.
 
@@ -472,7 +472,7 @@ Whether this status code + body should be retried.
 
 > `protected` **\_retryDelay**(`response`, `attempt`): `number`
 
-Defined in: src/core/client.ts:224
+Defined in: [src/core/client.ts:224](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/client.ts#L224)
 
 Milliseconds to wait before the next attempt.
 

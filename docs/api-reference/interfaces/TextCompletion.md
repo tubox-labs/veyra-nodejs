@@ -6,7 +6,7 @@
 
 # Interface: TextCompletion
 
-Defined in: src/types/completions.ts:32
+Defined in: [src/types/completions.ts:32](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/completions.ts#L32)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: src/types/completions.ts:32
 
 > **id**: `string`
 
-Defined in: src/types/completions.ts:33
+Defined in: [src/types/completions.ts:33](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/completions.ts#L33)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: src/types/completions.ts:33
 
 > **object**: `"text_completion"`
 
-Defined in: src/types/completions.ts:34
+Defined in: [src/types/completions.ts:34](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/completions.ts#L34)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: src/types/completions.ts:34
 
 > **created**: `number`
 
-Defined in: src/types/completions.ts:35
+Defined in: [src/types/completions.ts:35](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/completions.ts#L35)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: src/types/completions.ts:35
 
 > **model**: `string`
 
-Defined in: src/types/completions.ts:36
+Defined in: [src/types/completions.ts:36](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/completions.ts#L36)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: src/types/completions.ts:36
 
 > **choices**: [`TextCompletionChoice`](TextCompletionChoice.md)[]
 
-Defined in: src/types/completions.ts:37
+Defined in: [src/types/completions.ts:37](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/completions.ts#L37)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: src/types/completions.ts:37
 
 > **usage**: [`Usage`](Usage.md) \| `null`
 
-Defined in: src/types/completions.ts:38
+Defined in: [src/types/completions.ts:38](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/completions.ts#L38)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: src/types/completions.ts:38
 
 > `optional` **\_raw?**: `unknown`
 
-Defined in: src/types/shared.ts:23
+Defined in: [src/types/shared.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L23)
 
 #### Inherited from
 

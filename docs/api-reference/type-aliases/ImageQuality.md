@@ -8,4 +8,4 @@
 
 > **ImageQuality** = `"standard"` \| `"hd"`
 
-Defined in: src/types/images.ts:4
+Defined in: [src/types/images.ts:4](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/images.ts#L4)

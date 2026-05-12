@@ -6,7 +6,7 @@
 
 # Interface: ChatCompletionMessage
 
-Defined in: src/types/chat.ts:43
+Defined in: [src/types/chat.ts:43](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L43)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/chat.ts:43
 
 > **role**: `"assistant"`
 
-Defined in: src/types/chat.ts:44
+Defined in: [src/types/chat.ts:44](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L44)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: src/types/chat.ts:44
 
 > **content**: `string` \| `null`
 
-Defined in: src/types/chat.ts:45
+Defined in: [src/types/chat.ts:45](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L45)

@@ -6,7 +6,7 @@
 
 # Interface: QuotaLimits
 
-Defined in: src/types/quota.ts:3
+Defined in: [src/types/quota.ts:3](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/quota.ts#L3)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/quota.ts:3
 
 > **dailyRequests**: `number`
 
-Defined in: src/types/quota.ts:4
+Defined in: [src/types/quota.ts:4](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/quota.ts#L4)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/quota.ts:4
 
 > **dailyTokens**: `number`
 
-Defined in: src/types/quota.ts:5
+Defined in: [src/types/quota.ts:5](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/quota.ts#L5)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: src/types/quota.ts:5
 
 > `optional` **monthlySpendUsd?**: `number`
 
-Defined in: src/types/quota.ts:6
+Defined in: [src/types/quota.ts:6](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/quota.ts#L6)

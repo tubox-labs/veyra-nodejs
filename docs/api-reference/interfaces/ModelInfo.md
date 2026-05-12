@@ -6,7 +6,7 @@
 
 # Interface: ModelInfo
 
-Defined in: src/types/models.ts:3
+Defined in: [src/types/models.ts:3](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/models.ts#L3)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: src/types/models.ts:3
 
 > **id**: `string`
 
-Defined in: src/types/models.ts:4
+Defined in: [src/types/models.ts:4](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/models.ts#L4)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: src/types/models.ts:4
 
 > **object**: `"model"`
 
-Defined in: src/types/models.ts:5
+Defined in: [src/types/models.ts:5](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/models.ts#L5)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: src/types/models.ts:5
 
 > **created**: `number`
 
-Defined in: src/types/models.ts:6
+Defined in: [src/types/models.ts:6](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/models.ts#L6)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: src/types/models.ts:6
 
 > **ownedBy**: `string`
 
-Defined in: src/types/models.ts:7
+Defined in: [src/types/models.ts:7](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/models.ts#L7)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: src/types/models.ts:7
 
 > `optional` **maxInputTokens?**: `number`
 
-Defined in: src/types/models.ts:8
+Defined in: [src/types/models.ts:8](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/models.ts#L8)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: src/types/models.ts:8
 
 > `optional` **maxOutputTokens?**: `number`
 
-Defined in: src/types/models.ts:9
+Defined in: [src/types/models.ts:9](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/models.ts#L9)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: src/types/models.ts:9
 
 > `optional` **\_raw?**: `unknown`
 
-Defined in: src/types/shared.ts:23
+Defined in: [src/types/shared.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L23)
 
 #### Inherited from
 

@@ -6,7 +6,7 @@
 
 # Interface: UpdateAPIKeyParams
 
-Defined in: src/types/apiKeys.ts:20
+Defined in: [src/types/apiKeys.ts:20](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/apiKeys.ts#L20)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/apiKeys.ts:20
 
 > `optional` **name?**: `string`
 
-Defined in: src/types/apiKeys.ts:21
+Defined in: [src/types/apiKeys.ts:21](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/apiKeys.ts#L21)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/apiKeys.ts:21
 
 > `optional` **scopes?**: `string`[]
 
-Defined in: src/types/apiKeys.ts:22
+Defined in: [src/types/apiKeys.ts:22](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/apiKeys.ts#L22)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: src/types/apiKeys.ts:22
 
 > `optional` **isActive?**: `boolean`
 
-Defined in: src/types/apiKeys.ts:23
+Defined in: [src/types/apiKeys.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/apiKeys.ts#L23)

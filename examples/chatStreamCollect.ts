@@ -1,5 +1,5 @@
-import Veyra from "veyra";
-import { collectStream } from "veyra/streaming";
+import Veyra from "@tubox/veyra-sdk";
+import { collectStream } from "@tubox/veyra-sdk/streaming";
 
 const client = new Veyra();
 

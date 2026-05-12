@@ -6,7 +6,7 @@
 
 # Class: Stream\<T\>
 
-Defined in: src/core/streaming.ts:6
+Defined in: [src/core/streaming.ts:6](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/streaming.ts#L6)
 
 An async iterable of SSE-parsed, strongly-typed objects.
 
@@ -26,7 +26,7 @@ An async iterable of SSE-parsed, strongly-typed objects.
 
 > **new Stream**\<`T`\>(`response`, `deserialise`): `Stream`\<`T`\>
 
-Defined in: src/core/streaming.ts:11
+Defined in: [src/core/streaming.ts:11](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/streaming.ts#L11)
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: src/core/streaming.ts:11
 
 > **\[asyncIterator\]**(): `AsyncIterator`\<`T`\>
 
-Defined in: src/core/streaming.ts:19
+Defined in: [src/core/streaming.ts:19](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/streaming.ts#L19)
 
 Iterate over SSE events.
 
@@ -66,7 +66,7 @@ Iterate over SSE events.
 
 > **toReadableStream**(): `ReadableStream`\<`Uint8Array`\<`ArrayBufferLike`\>\>
 
-Defined in: src/core/streaming.ts:94
+Defined in: [src/core/streaming.ts:94](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/streaming.ts#L94)
 
 Convert the stream to a browser/edge-compatible ReadableStream.
 

@@ -6,7 +6,7 @@
 
 # Interface: AssistantChatParamsNonStreaming
 
-Defined in: src/types/assistant.ts:9
+Defined in: [src/types/assistant.ts:9](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/assistant.ts#L9)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: src/types/assistant.ts:9
 
 > **message**: `string`
 
-Defined in: src/types/assistant.ts:4
+Defined in: [src/types/assistant.ts:4](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/assistant.ts#L4)
 
 #### Inherited from
 
@@ -30,7 +30,7 @@ Defined in: src/types/assistant.ts:4
 
 > `optional` **model?**: `string`
 
-Defined in: src/types/assistant.ts:5
+Defined in: [src/types/assistant.ts:5](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/assistant.ts#L5)
 
 #### Inherited from
 
@@ -42,7 +42,7 @@ Defined in: src/types/assistant.ts:5
 
 > `optional` **conversationId?**: `string`
 
-Defined in: src/types/assistant.ts:6
+Defined in: [src/types/assistant.ts:6](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/assistant.ts#L6)
 
 #### Inherited from
 
@@ -54,4 +54,4 @@ Defined in: src/types/assistant.ts:6
 
 > `optional` **stream?**: `false`
 
-Defined in: src/types/assistant.ts:10
+Defined in: [src/types/assistant.ts:10](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/assistant.ts#L10)

@@ -6,7 +6,7 @@
 
 # Interface: ResponseOutputText
 
-Defined in: src/types/responses.ts:26
+Defined in: [src/types/responses.ts:26](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L26)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/responses.ts:26
 
 > **type**: `"output_text"`
 
-Defined in: src/types/responses.ts:27
+Defined in: [src/types/responses.ts:27](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L27)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: src/types/responses.ts:27
 
 > **text**: `string`
 
-Defined in: src/types/responses.ts:28
+Defined in: [src/types/responses.ts:28](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L28)

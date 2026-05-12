@@ -6,7 +6,7 @@
 
 # Interface: ErrorDetail
 
-Defined in: src/types/shared.ts:8
+Defined in: [src/types/shared.ts:8](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L8)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/shared.ts:8
 
 > **loc**: (`string` \| `number`)[]
 
-Defined in: src/types/shared.ts:9
+Defined in: [src/types/shared.ts:9](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L9)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/shared.ts:9
 
 > **msg**: `string`
 
-Defined in: src/types/shared.ts:10
+Defined in: [src/types/shared.ts:10](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L10)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: src/types/shared.ts:10
 
 > **type**: `string`
 
-Defined in: src/types/shared.ts:11
+Defined in: [src/types/shared.ts:11](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L11)

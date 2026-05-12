@@ -6,7 +6,7 @@
 
 # Interface: ModelList
 
-Defined in: src/types/models.ts:12
+Defined in: [src/types/models.ts:12](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/models.ts#L12)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: src/types/models.ts:12
 
 > **object**: `"list"`
 
-Defined in: src/types/models.ts:13
+Defined in: [src/types/models.ts:13](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/models.ts#L13)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: src/types/models.ts:13
 
 > **data**: [`ModelInfo`](ModelInfo.md)[]
 
-Defined in: src/types/models.ts:14
+Defined in: [src/types/models.ts:14](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/models.ts#L14)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: src/types/models.ts:14
 
 > `optional` **\_raw?**: `unknown`
 
-Defined in: src/types/shared.ts:23
+Defined in: [src/types/shared.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L23)
 
 #### Inherited from
 

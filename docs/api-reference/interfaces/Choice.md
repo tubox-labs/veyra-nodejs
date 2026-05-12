@@ -6,7 +6,7 @@
 
 # Interface: Choice
 
-Defined in: src/types/chat.ts:48
+Defined in: [src/types/chat.ts:48](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L48)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/chat.ts:48
 
 > **index**: `number`
 
-Defined in: src/types/chat.ts:49
+Defined in: [src/types/chat.ts:49](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L49)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/chat.ts:49
 
 > **message**: [`ChatCompletionMessage`](ChatCompletionMessage.md)
 
-Defined in: src/types/chat.ts:50
+Defined in: [src/types/chat.ts:50](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L50)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: src/types/chat.ts:50
 
 > **finishReason**: `string` \| `null`
 
-Defined in: src/types/chat.ts:51
+Defined in: [src/types/chat.ts:51](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L51)

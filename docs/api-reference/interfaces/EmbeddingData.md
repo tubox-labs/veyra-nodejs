@@ -6,7 +6,7 @@
 
 # Interface: EmbeddingData
 
-Defined in: src/types/embeddings.ts:8
+Defined in: [src/types/embeddings.ts:8](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/embeddings.ts#L8)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/embeddings.ts:8
 
 > **object**: `"embedding"`
 
-Defined in: src/types/embeddings.ts:9
+Defined in: [src/types/embeddings.ts:9](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/embeddings.ts#L9)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/embeddings.ts:9
 
 > **index**: `number`
 
-Defined in: src/types/embeddings.ts:10
+Defined in: [src/types/embeddings.ts:10](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/embeddings.ts#L10)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: src/types/embeddings.ts:10
 
 > **embedding**: `number`[]
 
-Defined in: src/types/embeddings.ts:11
+Defined in: [src/types/embeddings.ts:11](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/embeddings.ts#L11)

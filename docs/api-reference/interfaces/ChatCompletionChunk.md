@@ -6,7 +6,7 @@
 
 # Interface: ChatCompletionChunk
 
-Defined in: src/types/chat.ts:75
+Defined in: [src/types/chat.ts:75](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L75)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: src/types/chat.ts:75
 
 > **id**: `string`
 
-Defined in: src/types/chat.ts:76
+Defined in: [src/types/chat.ts:76](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L76)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: src/types/chat.ts:76
 
 > **object**: `"chat.completion.chunk"`
 
-Defined in: src/types/chat.ts:77
+Defined in: [src/types/chat.ts:77](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L77)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: src/types/chat.ts:77
 
 > **created**: `number`
 
-Defined in: src/types/chat.ts:78
+Defined in: [src/types/chat.ts:78](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L78)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: src/types/chat.ts:78
 
 > **model**: `string`
 
-Defined in: src/types/chat.ts:79
+Defined in: [src/types/chat.ts:79](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L79)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: src/types/chat.ts:79
 
 > **choices**: [`StreamChoice`](StreamChoice.md)[]
 
-Defined in: src/types/chat.ts:80
+Defined in: [src/types/chat.ts:80](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L80)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: src/types/chat.ts:80
 
 > `optional` **usage?**: [`Usage`](Usage.md) \| `null`
 
-Defined in: src/types/chat.ts:81
+Defined in: [src/types/chat.ts:81](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L81)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: src/types/chat.ts:81
 
 > `optional` **\_raw?**: `unknown`
 
-Defined in: src/types/shared.ts:23
+Defined in: [src/types/shared.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L23)
 
 #### Inherited from
 

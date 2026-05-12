@@ -6,7 +6,7 @@
 
 # Interface: Usage
 
-Defined in: src/types/shared.ts:2
+Defined in: [src/types/shared.ts:2](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L2)
 
 Token usage reported by the API.
 
@@ -16,7 +16,7 @@ Token usage reported by the API.
 
 > **promptTokens**: `number`
 
-Defined in: src/types/shared.ts:3
+Defined in: [src/types/shared.ts:3](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L3)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: src/types/shared.ts:3
 
 > **completionTokens**: `number`
 
-Defined in: src/types/shared.ts:4
+Defined in: [src/types/shared.ts:4](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L4)
 
 ***
 
@@ -32,4 +32,4 @@ Defined in: src/types/shared.ts:4
 
 > **totalTokens**: `number`
 
-Defined in: src/types/shared.ts:5
+Defined in: [src/types/shared.ts:5](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L5)

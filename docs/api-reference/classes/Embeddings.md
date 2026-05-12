@@ -6,7 +6,7 @@
 
 # Class: Embeddings
 
-Defined in: src/resources/embeddings.ts:9
+Defined in: [src/resources/embeddings.ts:9](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/embeddings.ts#L9)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: src/resources/embeddings.ts:9
 
 > **new Embeddings**(`_client`): `Embeddings`
 
-Defined in: src/resources/embeddings.ts:10
+Defined in: [src/resources/embeddings.ts:10](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/embeddings.ts#L10)
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: src/resources/embeddings.ts:10
 
 > **create**(`params`, `options?`): `Promise`\<[`EmbeddingResponse`](../interfaces/EmbeddingResponse.md)\>
 
-Defined in: src/resources/embeddings.ts:15
+Defined in: [src/resources/embeddings.ts:15](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/embeddings.ts#L15)
 
 #### Parameters
 

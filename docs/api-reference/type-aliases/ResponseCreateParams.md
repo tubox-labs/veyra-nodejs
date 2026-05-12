@@ -8,4 +8,4 @@
 
 > **ResponseCreateParams** = [`ResponseCreateParamsNonStreaming`](../interfaces/ResponseCreateParamsNonStreaming.md) \| [`ResponseCreateParamsStreaming`](../interfaces/ResponseCreateParamsStreaming.md)
 
-Defined in: src/types/responses.ts:24
+Defined in: [src/types/responses.ts:24](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L24)
