@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v1.0.0**](../README.md)
+[**Veyra Node.js SDK v1.0.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: TextCompletionChoice
 
-Defined in: [src/types/completions.ts:26](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/completions.ts#L26)
+Defined in: [src/types/completions.ts:32](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/completions.ts#L32)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/types/completions.ts:26](https://github.com/tubox-labs/veyra-no
 
 > **index**: `number`
 
-Defined in: [src/types/completions.ts:27](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/completions.ts#L27)
+Defined in: [src/types/completions.ts:33](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/completions.ts#L33)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [src/types/completions.ts:27](https://github.com/tubox-labs/veyra-no
 
 > **text**: `string`
 
-Defined in: [src/types/completions.ts:28](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/completions.ts#L28)
+Defined in: [src/types/completions.ts:34](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/completions.ts#L34)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: [src/types/completions.ts:28](https://github.com/tubox-labs/veyra-no
 
 > **finishReason**: `string` \| `null`
 
-Defined in: [src/types/completions.ts:29](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/completions.ts#L29)
+Defined in: [src/types/completions.ts:35](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/completions.ts#L35)

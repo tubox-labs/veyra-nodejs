@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v1.0.0**](../README.md)
+[**Veyra Node.js SDK v1.0.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: APIKeys
 
-Defined in: [src/resources/apiKeys.ts:10](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/apiKeys.ts#L10)
+Defined in: [src/resources/apiKeys.ts:10](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/resources/apiKeys.ts#L10)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [src/resources/apiKeys.ts:10](https://github.com/tubox-labs/veyra-no
 
 > **new APIKeys**(`_client`): `APIKeys`
 
-Defined in: [src/resources/apiKeys.ts:11](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/apiKeys.ts#L11)
+Defined in: [src/resources/apiKeys.ts:11](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/resources/apiKeys.ts#L11)
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: [src/resources/apiKeys.ts:11](https://github.com/tubox-labs/veyra-no
 
 > **create**(`params`, `options?`): `Promise`\<[`CreateAPIKeyResponse`](../interfaces/CreateAPIKeyResponse.md)\>
 
-Defined in: [src/resources/apiKeys.ts:16](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/apiKeys.ts#L16)
+Defined in: [src/resources/apiKeys.ts:16](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/resources/apiKeys.ts#L16)
 
 #### Parameters
 
@@ -54,7 +54,7 @@ Defined in: [src/resources/apiKeys.ts:16](https://github.com/tubox-labs/veyra-no
 
 > **list**(`options?`): `Promise`\<[`APIKey`](../interfaces/APIKey.md)[]\>
 
-Defined in: [src/resources/apiKeys.ts:32](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/apiKeys.ts#L32)
+Defined in: [src/resources/apiKeys.ts:32](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/resources/apiKeys.ts#L32)
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: [src/resources/apiKeys.ts:32](https://github.com/tubox-labs/veyra-no
 
 > **update**(`keyId`, `params`, `options?`): `Promise`\<[`APIKey`](../interfaces/APIKey.md)\>
 
-Defined in: [src/resources/apiKeys.ts:45](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/apiKeys.ts#L45)
+Defined in: [src/resources/apiKeys.ts:45](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/resources/apiKeys.ts#L45)
 
 #### Parameters
 
@@ -98,7 +98,7 @@ Defined in: [src/resources/apiKeys.ts:45](https://github.com/tubox-labs/veyra-no
 
 > **revoke**(`keyId`, `options?`): `Promise`\<`void`\>
 
-Defined in: [src/resources/apiKeys.ts:62](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/apiKeys.ts#L62)
+Defined in: [src/resources/apiKeys.ts:62](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/resources/apiKeys.ts#L62)
 
 #### Parameters
 

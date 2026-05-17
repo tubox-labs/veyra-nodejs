@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v1.0.0**](../README.md)
+[**Veyra Node.js SDK v1.0.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: QuotaPlan
 
-Defined in: [src/types/quota.ts:15](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/quota.ts#L15)
+Defined in: [src/types/quota.ts:22](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/quota.ts#L22)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/types/quota.ts:15](https://github.com/tubox-labs/veyra-nodejs/b
 
 > **id**: `string`
 
-Defined in: [src/types/quota.ts:16](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/quota.ts#L16)
+Defined in: [src/types/quota.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/quota.ts#L23)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [src/types/quota.ts:16](https://github.com/tubox-labs/veyra-nodejs/b
 
 > **name**: `string`
 
-Defined in: [src/types/quota.ts:17](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/quota.ts#L17)
+Defined in: [src/types/quota.ts:24](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/quota.ts#L24)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [src/types/quota.ts:17](https://github.com/tubox-labs/veyra-nodejs/b
 
 > **tier**: `string`
 
-Defined in: [src/types/quota.ts:18](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/quota.ts#L18)
+Defined in: [src/types/quota.ts:25](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/quota.ts#L25)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [src/types/quota.ts:18](https://github.com/tubox-labs/veyra-nodejs/b
 
 > **isPublic**: `boolean`
 
-Defined in: [src/types/quota.ts:19](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/quota.ts#L19)
+Defined in: [src/types/quota.ts:26](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/quota.ts#L26)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: [src/types/quota.ts:19](https://github.com/tubox-labs/veyra-nodejs/b
 
 > **limits**: [`QuotaLimits`](QuotaLimits.md)
 
-Defined in: [src/types/quota.ts:20](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/quota.ts#L20)
+Defined in: [src/types/quota.ts:27](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/quota.ts#L27)

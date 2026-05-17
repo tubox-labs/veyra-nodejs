@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v1.0.0**](../README.md)
+[**Veyra Node.js SDK v1.0.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: AssistantMessage
 
-Defined in: [src/types/chat.ts:13](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L13)
+Defined in: [src/types/chat.ts:24](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L24)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/types/chat.ts:13](https://github.com/tubox-labs/veyra-nodejs/bl
 
 > **role**: `"assistant"`
 
-Defined in: [src/types/chat.ts:14](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L14)
+Defined in: [src/types/chat.ts:25](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L25)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [src/types/chat.ts:14](https://github.com/tubox-labs/veyra-nodejs/bl
 
 > **content**: `string`
 
-Defined in: [src/types/chat.ts:15](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L15)
+Defined in: [src/types/chat.ts:26](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L26)

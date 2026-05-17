@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v1.0.0**](../README.md)
+[**Veyra Node.js SDK v1.0.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ChatCompletionChunk
 
-Defined in: [src/types/chat.ts:75](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L75)
+Defined in: [src/types/chat.ts:92](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L92)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [src/types/chat.ts:75](https://github.com/tubox-labs/veyra-nodejs/bl
 
 > **id**: `string`
 
-Defined in: [src/types/chat.ts:76](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L76)
+Defined in: [src/types/chat.ts:93](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L93)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [src/types/chat.ts:76](https://github.com/tubox-labs/veyra-nodejs/bl
 
 > **object**: `"chat.completion.chunk"`
 
-Defined in: [src/types/chat.ts:77](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L77)
+Defined in: [src/types/chat.ts:94](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L94)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [src/types/chat.ts:77](https://github.com/tubox-labs/veyra-nodejs/bl
 
 > **created**: `number`
 
-Defined in: [src/types/chat.ts:78](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L78)
+Defined in: [src/types/chat.ts:95](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L95)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [src/types/chat.ts:78](https://github.com/tubox-labs/veyra-nodejs/bl
 
 > **model**: `string`
 
-Defined in: [src/types/chat.ts:79](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L79)
+Defined in: [src/types/chat.ts:96](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L96)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [src/types/chat.ts:79](https://github.com/tubox-labs/veyra-nodejs/bl
 
 > **choices**: [`StreamChoice`](StreamChoice.md)[]
 
-Defined in: [src/types/chat.ts:80](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L80)
+Defined in: [src/types/chat.ts:97](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L97)
 
 ***
 
@@ -58,7 +58,15 @@ Defined in: [src/types/chat.ts:80](https://github.com/tubox-labs/veyra-nodejs/bl
 
 > `optional` **usage?**: [`Usage`](Usage.md) \| `null`
 
-Defined in: [src/types/chat.ts:81](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L81)
+Defined in: [src/types/chat.ts:98](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L98)
+
+***
+
+### systemFingerprint?
+
+> `optional` **systemFingerprint?**: `string` \| `null`
+
+Defined in: [src/types/chat.ts:99](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L99)
 
 ***
 
@@ -66,7 +74,7 @@ Defined in: [src/types/chat.ts:81](https://github.com/tubox-labs/veyra-nodejs/bl
 
 > `optional` **\_raw?**: `unknown`
 
-Defined in: [src/types/shared.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L23)
+Defined in: [src/types/shared.ts:38](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/shared.ts#L38)
 
 #### Inherited from
 

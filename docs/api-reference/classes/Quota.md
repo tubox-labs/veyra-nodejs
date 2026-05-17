@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v1.0.0**](../README.md)
+[**Veyra Node.js SDK v1.0.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: Quota
 
-Defined in: [src/resources/quota.ts:5](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/quota.ts#L5)
+Defined in: [src/resources/quota.ts:5](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/resources/quota.ts#L5)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [src/resources/quota.ts:5](https://github.com/tubox-labs/veyra-nodej
 
 > **new Quota**(`_client`): `Quota`
 
-Defined in: [src/resources/quota.ts:6](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/quota.ts#L6)
+Defined in: [src/resources/quota.ts:6](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/resources/quota.ts#L6)
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: [src/resources/quota.ts:6](https://github.com/tubox-labs/veyra-nodej
 
 > **status**(`options?`): `Promise`\<[`QuotaStatus`](../interfaces/QuotaStatus.md)\>
 
-Defined in: [src/resources/quota.ts:11](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/quota.ts#L11)
+Defined in: [src/resources/quota.ts:11](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/resources/quota.ts#L11)
 
 #### Parameters
 
@@ -50,7 +50,7 @@ Defined in: [src/resources/quota.ts:11](https://github.com/tubox-labs/veyra-node
 
 > **listPlans**(`options?`): `Promise`\<[`QuotaPlan`](../interfaces/QuotaPlan.md)[]\>
 
-Defined in: [src/resources/quota.ts:24](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/quota.ts#L24)
+Defined in: [src/resources/quota.ts:24](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/resources/quota.ts#L24)
 
 #### Parameters
 
@@ -68,7 +68,7 @@ Defined in: [src/resources/quota.ts:24](https://github.com/tubox-labs/veyra-node
 
 > **listPublicPlans**(`options?`): `Promise`\<[`QuotaPlan`](../interfaces/QuotaPlan.md)[]\>
 
-Defined in: [src/resources/quota.ts:37](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/quota.ts#L37)
+Defined in: [src/resources/quota.ts:37](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/resources/quota.ts#L37)
 
 #### Parameters
 

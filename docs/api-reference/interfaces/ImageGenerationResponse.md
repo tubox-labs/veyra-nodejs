@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v1.0.0**](../README.md)
+[**Veyra Node.js SDK v1.0.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ImageGenerationResponse
 
-Defined in: [src/types/images.ts:20](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/images.ts#L20)
+Defined in: [src/types/images.ts:22](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/images.ts#L22)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [src/types/images.ts:20](https://github.com/tubox-labs/veyra-nodejs/
 
 > **created**: `number`
 
-Defined in: [src/types/images.ts:21](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/images.ts#L21)
+Defined in: [src/types/images.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/images.ts#L23)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [src/types/images.ts:21](https://github.com/tubox-labs/veyra-nodejs/
 
 > **data**: [`ImageData`](ImageData.md)[]
 
-Defined in: [src/types/images.ts:22](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/images.ts#L22)
+Defined in: [src/types/images.ts:24](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/images.ts#L24)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [src/types/images.ts:22](https://github.com/tubox-labs/veyra-nodejs/
 
 > `optional` **\_raw?**: `unknown`
 
-Defined in: [src/types/shared.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L23)
+Defined in: [src/types/shared.ts:38](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/shared.ts#L38)
 
 #### Inherited from
 

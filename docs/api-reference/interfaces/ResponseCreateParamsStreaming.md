@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v1.0.0**](../README.md)
+[**Veyra Node.js SDK v1.0.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ResponseCreateParamsStreaming
 
-Defined in: [src/types/responses.ts:20](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L20)
+Defined in: [src/types/responses.ts:41](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/responses.ts#L41)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [src/types/responses.ts:20](https://github.com/tubox-labs/veyra-node
 
 > **model**: `string`
 
-Defined in: [src/types/responses.ts:9](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L9)
+Defined in: [src/types/responses.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/responses.ts#L23)
 
 #### Inherited from
 
@@ -28,9 +28,9 @@ Defined in: [src/types/responses.ts:9](https://github.com/tubox-labs/veyra-nodej
 
 ### input
 
-> **input**: `string` \| [`ResponseInputText`](ResponseInputText.md)[]
+> **input**: [`ResponseInput`](../type-aliases/ResponseInput.md)
 
-Defined in: [src/types/responses.ts:10](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L10)
+Defined in: [src/types/responses.ts:24](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/responses.ts#L24)
 
 #### Inherited from
 
@@ -38,11 +38,23 @@ Defined in: [src/types/responses.ts:10](https://github.com/tubox-labs/veyra-node
 
 ***
 
+### instructions?
+
+> `optional` **instructions?**: `string`
+
+Defined in: [src/types/responses.ts:25](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/responses.ts#L25)
+
+#### Inherited from
+
+`ResponseCreateParamsBase.instructions`
+
+***
+
 ### temperature?
 
 > `optional` **temperature?**: `number`
 
-Defined in: [src/types/responses.ts:11](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L11)
+Defined in: [src/types/responses.ts:26](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/responses.ts#L26)
 
 #### Inherited from
 
@@ -54,7 +66,7 @@ Defined in: [src/types/responses.ts:11](https://github.com/tubox-labs/veyra-node
 
 > `optional` **topP?**: `number`
 
-Defined in: [src/types/responses.ts:12](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L12)
+Defined in: [src/types/responses.ts:27](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/responses.ts#L27)
 
 #### Inherited from
 
@@ -66,7 +78,7 @@ Defined in: [src/types/responses.ts:12](https://github.com/tubox-labs/veyra-node
 
 > `optional` **maxOutputTokens?**: `number`
 
-Defined in: [src/types/responses.ts:13](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L13)
+Defined in: [src/types/responses.ts:28](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/responses.ts#L28)
 
 #### Inherited from
 
@@ -74,8 +86,80 @@ Defined in: [src/types/responses.ts:13](https://github.com/tubox-labs/veyra-node
 
 ***
 
+### responseFormat?
+
+> `optional` **responseFormat?**: [`ResponseFormat`](../type-aliases/ResponseFormat.md)
+
+Defined in: [src/types/responses.ts:29](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/responses.ts#L29)
+
+#### Inherited from
+
+`ResponseCreateParamsBase.responseFormat`
+
+***
+
+### reasoning?
+
+> `optional` **reasoning?**: [`ReasoningConfig`](ReasoningConfig.md)
+
+Defined in: [src/types/responses.ts:30](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/responses.ts#L30)
+
+#### Inherited from
+
+`ResponseCreateParamsBase.reasoning`
+
+***
+
+### parallelToolCalls?
+
+> `optional` **parallelToolCalls?**: `boolean`
+
+Defined in: [src/types/responses.ts:31](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/responses.ts#L31)
+
+#### Inherited from
+
+`ResponseCreateParamsBase.parallelToolCalls`
+
+***
+
+### truncation?
+
+> `optional` **truncation?**: `"auto"` \| `string` & `Record`\<`never`, `never`\> \| `"disabled"`
+
+Defined in: [src/types/responses.ts:32](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/responses.ts#L32)
+
+#### Inherited from
+
+`ResponseCreateParamsBase.truncation`
+
+***
+
+### metadata?
+
+> `optional` **metadata?**: `Record`\<`string`, `string` \| `number` \| `boolean` \| `null`\>
+
+Defined in: [src/types/responses.ts:33](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/responses.ts#L33)
+
+#### Inherited from
+
+`ResponseCreateParamsBase.metadata`
+
+***
+
+### user?
+
+> `optional` **user?**: `string`
+
+Defined in: [src/types/responses.ts:34](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/responses.ts#L34)
+
+#### Inherited from
+
+`ResponseCreateParamsBase.user`
+
+***
+
 ### stream
 
 > **stream**: `true`
 
-Defined in: [src/types/responses.ts:21](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L21)
+Defined in: [src/types/responses.ts:42](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/responses.ts#L42)

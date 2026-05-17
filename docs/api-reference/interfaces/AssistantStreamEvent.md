@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v1.0.0**](../README.md)
+[**Veyra Node.js SDK v1.0.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: AssistantStreamEvent
 
-Defined in: [src/types/assistant.ts:28](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/assistant.ts#L28)
+Defined in: [src/types/assistant.ts:40](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/assistant.ts#L40)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [src/types/assistant.ts:28](https://github.com/tubox-labs/veyra-node
 
 > **type**: `string`
 
-Defined in: [src/types/assistant.ts:29](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/assistant.ts#L29)
+Defined in: [src/types/assistant.ts:41](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/assistant.ts#L41)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [src/types/assistant.ts:29](https://github.com/tubox-labs/veyra-node
 
 > `optional` **delta?**: `string`
 
-Defined in: [src/types/assistant.ts:30](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/assistant.ts#L30)
+Defined in: [src/types/assistant.ts:42](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/assistant.ts#L42)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [src/types/assistant.ts:30](https://github.com/tubox-labs/veyra-node
 
 > `optional` **done?**: `boolean`
 
-Defined in: [src/types/assistant.ts:31](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/assistant.ts#L31)
+Defined in: [src/types/assistant.ts:43](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/assistant.ts#L43)
 
 ***
 
@@ -42,7 +42,55 @@ Defined in: [src/types/assistant.ts:31](https://github.com/tubox-labs/veyra-node
 
 > `optional` **conversationId?**: `string`
 
-Defined in: [src/types/assistant.ts:32](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/assistant.ts#L32)
+Defined in: [src/types/assistant.ts:44](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/assistant.ts#L44)
+
+***
+
+### answer?
+
+> `optional` **answer?**: `string`
+
+Defined in: [src/types/assistant.ts:45](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/assistant.ts#L45)
+
+***
+
+### model?
+
+> `optional` **model?**: `string`
+
+Defined in: [src/types/assistant.ts:46](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/assistant.ts#L46)
+
+***
+
+### references?
+
+> `optional` **references?**: `string`[]
+
+Defined in: [src/types/assistant.ts:47](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/assistant.ts#L47)
+
+***
+
+### blocked?
+
+> `optional` **blocked?**: `boolean`
+
+Defined in: [src/types/assistant.ts:48](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/assistant.ts#L48)
+
+***
+
+### requiresLogin?
+
+> `optional` **requiresLogin?**: `boolean`
+
+Defined in: [src/types/assistant.ts:49](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/assistant.ts#L49)
+
+***
+
+### scopeLimited?
+
+> `optional` **scopeLimited?**: `boolean`
+
+Defined in: [src/types/assistant.ts:50](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/assistant.ts#L50)
 
 ***
 
@@ -50,7 +98,7 @@ Defined in: [src/types/assistant.ts:32](https://github.com/tubox-labs/veyra-node
 
 > `optional` **\_raw?**: `unknown`
 
-Defined in: [src/types/shared.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L23)
+Defined in: [src/types/shared.ts:38](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/shared.ts#L38)
 
 #### Inherited from
 

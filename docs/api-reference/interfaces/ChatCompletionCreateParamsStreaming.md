@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v1.0.0**](../README.md)
+[**Veyra Node.js SDK v1.0.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ChatCompletionCreateParamsStreaming
 
-Defined in: [src/types/chat.ts:35](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L35)
+Defined in: [src/types/chat.ts:50](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L50)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [src/types/chat.ts:35](https://github.com/tubox-labs/veyra-nodejs/bl
 
 > **model**: `string`
 
-Defined in: [src/types/chat.ts:21](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L21)
+Defined in: [src/types/chat.ts:32](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L32)
 
 #### Inherited from
 
@@ -30,7 +30,7 @@ Defined in: [src/types/chat.ts:21](https://github.com/tubox-labs/veyra-nodejs/bl
 
 > **messages**: [`ChatCompletionMessageParam`](../type-aliases/ChatCompletionMessageParam.md)[]
 
-Defined in: [src/types/chat.ts:22](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L22)
+Defined in: [src/types/chat.ts:33](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L33)
 
 #### Inherited from
 
@@ -42,7 +42,7 @@ Defined in: [src/types/chat.ts:22](https://github.com/tubox-labs/veyra-nodejs/bl
 
 > `optional` **temperature?**: `number`
 
-Defined in: [src/types/chat.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L23)
+Defined in: [src/types/chat.ts:34](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L34)
 
 #### Inherited from
 
@@ -54,7 +54,7 @@ Defined in: [src/types/chat.ts:23](https://github.com/tubox-labs/veyra-nodejs/bl
 
 > `optional` **topP?**: `number`
 
-Defined in: [src/types/chat.ts:24](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L24)
+Defined in: [src/types/chat.ts:35](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L35)
 
 #### Inherited from
 
@@ -66,7 +66,7 @@ Defined in: [src/types/chat.ts:24](https://github.com/tubox-labs/veyra-nodejs/bl
 
 > `optional` **maxCompletionTokens?**: `number`
 
-Defined in: [src/types/chat.ts:25](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L25)
+Defined in: [src/types/chat.ts:36](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L36)
 
 #### Inherited from
 
@@ -74,11 +74,35 @@ Defined in: [src/types/chat.ts:25](https://github.com/tubox-labs/veyra-nodejs/bl
 
 ***
 
+### reasoningEffort?
+
+> `optional` **reasoningEffort?**: [`ReasoningEffort`](../type-aliases/ReasoningEffort.md)
+
+Defined in: [src/types/chat.ts:37](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L37)
+
+#### Inherited from
+
+`ChatCompletionCreateParamsBase.reasoningEffort`
+
+***
+
+### reasoning?
+
+> `optional` **reasoning?**: [`ReasoningConfig`](ReasoningConfig.md)
+
+Defined in: [src/types/chat.ts:38](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L38)
+
+#### Inherited from
+
+`ChatCompletionCreateParamsBase.reasoning`
+
+***
+
 ### stop?
 
 > `optional` **stop?**: `string` \| `string`[]
 
-Defined in: [src/types/chat.ts:26](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L26)
+Defined in: [src/types/chat.ts:39](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L39)
 
 #### Inherited from
 
@@ -90,7 +114,7 @@ Defined in: [src/types/chat.ts:26](https://github.com/tubox-labs/veyra-nodejs/bl
 
 > `optional` **frequencyPenalty?**: `number`
 
-Defined in: [src/types/chat.ts:27](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L27)
+Defined in: [src/types/chat.ts:40](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L40)
 
 #### Inherited from
 
@@ -102,7 +126,7 @@ Defined in: [src/types/chat.ts:27](https://github.com/tubox-labs/veyra-nodejs/bl
 
 > `optional` **presencePenalty?**: `number`
 
-Defined in: [src/types/chat.ts:28](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L28)
+Defined in: [src/types/chat.ts:41](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L41)
 
 #### Inherited from
 
@@ -110,8 +134,32 @@ Defined in: [src/types/chat.ts:28](https://github.com/tubox-labs/veyra-nodejs/bl
 
 ***
 
+### responseFormat?
+
+> `optional` **responseFormat?**: [`ResponseFormat`](../type-aliases/ResponseFormat.md)
+
+Defined in: [src/types/chat.ts:42](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L42)
+
+#### Inherited from
+
+`ChatCompletionCreateParamsBase.responseFormat`
+
+***
+
+### user?
+
+> `optional` **user?**: `string`
+
+Defined in: [src/types/chat.ts:43](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L43)
+
+#### Inherited from
+
+`ChatCompletionCreateParamsBase.user`
+
+***
+
 ### stream
 
 > **stream**: `true`
 
-Defined in: [src/types/chat.ts:36](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L36)
+Defined in: [src/types/chat.ts:51](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L51)

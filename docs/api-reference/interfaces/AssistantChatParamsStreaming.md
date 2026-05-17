@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v1.0.0**](../README.md)
+[**Veyra Node.js SDK v1.0.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: AssistantChatParamsStreaming
 
-Defined in: [src/types/assistant.ts:13](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/assistant.ts#L13)
+Defined in: [src/types/assistant.ts:19](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/assistant.ts#L19)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [src/types/assistant.ts:13](https://github.com/tubox-labs/veyra-node
 
 > **message**: `string`
 
-Defined in: [src/types/assistant.ts:4](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/assistant.ts#L4)
+Defined in: [src/types/assistant.ts:4](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/assistant.ts#L4)
 
 #### Inherited from
 
@@ -26,11 +26,23 @@ Defined in: [src/types/assistant.ts:4](https://github.com/tubox-labs/veyra-nodej
 
 ***
 
+### history?
+
+> `optional` **history?**: [`AssistantHistoryMessage`](AssistantHistoryMessage.md)[]
+
+Defined in: [src/types/assistant.ts:5](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/assistant.ts#L5)
+
+#### Inherited from
+
+`AssistantChatParamsBase.history`
+
+***
+
 ### model?
 
 > `optional` **model?**: `string`
 
-Defined in: [src/types/assistant.ts:5](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/assistant.ts#L5)
+Defined in: [src/types/assistant.ts:6](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/assistant.ts#L6)
 
 #### Inherited from
 
@@ -42,7 +54,7 @@ Defined in: [src/types/assistant.ts:5](https://github.com/tubox-labs/veyra-nodej
 
 > `optional` **conversationId?**: `string`
 
-Defined in: [src/types/assistant.ts:6](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/assistant.ts#L6)
+Defined in: [src/types/assistant.ts:7](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/assistant.ts#L7)
 
 #### Inherited from
 
@@ -54,4 +66,4 @@ Defined in: [src/types/assistant.ts:6](https://github.com/tubox-labs/veyra-nodej
 
 > **stream**: `true`
 
-Defined in: [src/types/assistant.ts:14](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/assistant.ts#L14)
+Defined in: [src/types/assistant.ts:20](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/assistant.ts#L20)

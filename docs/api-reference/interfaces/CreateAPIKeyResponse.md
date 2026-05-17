@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v1.0.0**](../README.md)
+[**Veyra Node.js SDK v1.0.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: CreateAPIKeyResponse
 
-Defined in: [src/types/apiKeys.ts:26](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/apiKeys.ts#L26)
+Defined in: [src/types/apiKeys.ts:26](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/apiKeys.ts#L26)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [src/types/apiKeys.ts:26](https://github.com/tubox-labs/veyra-nodejs
 
 > **id**: `string`
 
-Defined in: [src/types/apiKeys.ts:27](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/apiKeys.ts#L27)
+Defined in: [src/types/apiKeys.ts:27](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/apiKeys.ts#L27)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [src/types/apiKeys.ts:27](https://github.com/tubox-labs/veyra-nodejs
 
 > **key**: `string`
 
-Defined in: [src/types/apiKeys.ts:28](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/apiKeys.ts#L28)
+Defined in: [src/types/apiKeys.ts:28](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/apiKeys.ts#L28)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [src/types/apiKeys.ts:28](https://github.com/tubox-labs/veyra-nodejs
 
 > **name**: `string`
 
-Defined in: [src/types/apiKeys.ts:29](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/apiKeys.ts#L29)
+Defined in: [src/types/apiKeys.ts:29](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/apiKeys.ts#L29)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [src/types/apiKeys.ts:29](https://github.com/tubox-labs/veyra-nodejs
 
 > **scopes**: `string`[]
 
-Defined in: [src/types/apiKeys.ts:30](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/apiKeys.ts#L30)
+Defined in: [src/types/apiKeys.ts:30](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/apiKeys.ts#L30)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [src/types/apiKeys.ts:30](https://github.com/tubox-labs/veyra-nodejs
 
 > **createdAt**: `string`
 
-Defined in: [src/types/apiKeys.ts:31](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/apiKeys.ts#L31)
+Defined in: [src/types/apiKeys.ts:31](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/apiKeys.ts#L31)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [src/types/apiKeys.ts:31](https://github.com/tubox-labs/veyra-nodejs
 
 > `optional` **expiresAt?**: `string`
 
-Defined in: [src/types/apiKeys.ts:32](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/apiKeys.ts#L32)
+Defined in: [src/types/apiKeys.ts:32](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/apiKeys.ts#L32)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: [src/types/apiKeys.ts:32](https://github.com/tubox-labs/veyra-nodejs
 
 > `optional` **\_raw?**: `unknown`
 
-Defined in: [src/types/shared.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L23)
+Defined in: [src/types/shared.ts:38](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/shared.ts#L38)
 
 #### Inherited from
 

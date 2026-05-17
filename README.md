@@ -78,6 +78,20 @@ Use `for await ... of` on a stream returned from `create({ stream: true })`.
 - Early loop breaks are supported.
 - Use `stream.toReadableStream()` for edge/browser response piping.
 
+## Responses Reasoning
+
+```ts
+const response = await client.responses.create({
+  model: "gpt-5.4-mini",
+  input: "Explain the tradeoff in one paragraph.",
+  reasoning: { effort: "medium", summary: "auto" },
+  maxOutputTokens: 256,
+});
+
+const message = response.output.find((item) => item.type === "message");
+console.log(message?.type === "message" ? message.content[0]?.text : "");
+```
+
 ## Pagination
 
 `Page<T>` supports both item iteration and explicit page traversal:
@@ -169,7 +183,7 @@ The SDK is authored with strict TypeScript and exports all public request/respon
 
 ## Docs
 
-See the full docs in [`docs/`](./docs) and generated TypeDoc API reference in `docs/api-reference/`.
+See the full docs in [`docs/`](./docs), the hand-written SDK reference in [`docs/sdk-api-reference.md`](./docs/sdk-api-reference.md), and generated TypeDoc API reference in `docs/api-reference/`.
 Release workflow guidance is documented in [`docs/releasing.md`](./docs/releasing.md).
 
 ## Project Policies

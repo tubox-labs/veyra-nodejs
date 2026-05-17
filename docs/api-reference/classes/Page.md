@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v1.0.0**](../README.md)
+[**Veyra Node.js SDK v1.0.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: Page\<T\>
 
-Defined in: [src/core/pagination.ts:12](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/pagination.ts#L12)
+Defined in: [src/core/pagination.ts:12](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/pagination.ts#L12)
 
 An auto-advancing page of items from list endpoints.
 
@@ -26,7 +26,7 @@ An auto-advancing page of items from list endpoints.
 
 > **new Page**\<`T`\>(`_fetchPage`, `data`): `Page`\<`T`\>
 
-Defined in: [src/core/pagination.ts:20](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/pagination.ts#L20)
+Defined in: [src/core/pagination.ts:20](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/pagination.ts#L20)
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: [src/core/pagination.ts:20](https://github.com/tubox-labs/veyra-node
 
 > `readonly` **items**: `T`[]
 
-Defined in: [src/core/pagination.ts:13](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/pagination.ts#L13)
+Defined in: [src/core/pagination.ts:13](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/pagination.ts#L13)
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: [src/core/pagination.ts:13](https://github.com/tubox-labs/veyra-node
 
 > `readonly` **total**: `number`
 
-Defined in: [src/core/pagination.ts:14](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/pagination.ts#L14)
+Defined in: [src/core/pagination.ts:14](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/pagination.ts#L14)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: [src/core/pagination.ts:14](https://github.com/tubox-labs/veyra-node
 
 > `readonly` **offset**: `number`
 
-Defined in: [src/core/pagination.ts:15](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/pagination.ts#L15)
+Defined in: [src/core/pagination.ts:15](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/pagination.ts#L15)
 
 ***
 
@@ -72,7 +72,7 @@ Defined in: [src/core/pagination.ts:15](https://github.com/tubox-labs/veyra-node
 
 > `readonly` **limit**: `number`
 
-Defined in: [src/core/pagination.ts:16](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/pagination.ts#L16)
+Defined in: [src/core/pagination.ts:16](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/pagination.ts#L16)
 
 ***
 
@@ -80,7 +80,7 @@ Defined in: [src/core/pagination.ts:16](https://github.com/tubox-labs/veyra-node
 
 > `readonly` **hasMore**: `boolean`
 
-Defined in: [src/core/pagination.ts:17](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/pagination.ts#L17)
+Defined in: [src/core/pagination.ts:17](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/pagination.ts#L17)
 
 ***
 
@@ -88,7 +88,7 @@ Defined in: [src/core/pagination.ts:17](https://github.com/tubox-labs/veyra-node
 
 > `readonly` **nextOffset**: `number` \| `null`
 
-Defined in: [src/core/pagination.ts:18](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/pagination.ts#L18)
+Defined in: [src/core/pagination.ts:18](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/pagination.ts#L18)
 
 ## Methods
 
@@ -96,7 +96,7 @@ Defined in: [src/core/pagination.ts:18](https://github.com/tubox-labs/veyra-node
 
 > **nextPage**(): `Promise`\<`Page`\<`T`\> \| `null`\>
 
-Defined in: [src/core/pagination.ts:33](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/pagination.ts#L33)
+Defined in: [src/core/pagination.ts:33](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/pagination.ts#L33)
 
 Fetch the next page. Returns `null` when there are no more pages.
 
@@ -110,7 +110,7 @@ Fetch the next page. Returns `null` when there are no more pages.
 
 > **\[asyncIterator\]**(): `AsyncIterator`\<`T`\>
 
-Defined in: [src/core/pagination.ts:39](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/pagination.ts#L39)
+Defined in: [src/core/pagination.ts:39](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/pagination.ts#L39)
 
 Iterate all pages, yielding individual items.
 
@@ -128,7 +128,7 @@ Iterate all pages, yielding individual items.
 
 > **iterPages**(): `AsyncGenerator`\<`Page`\<`T`\>\>
 
-Defined in: [src/core/pagination.ts:51](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/pagination.ts#L51)
+Defined in: [src/core/pagination.ts:51](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/pagination.ts#L51)
 
 Iterate pages as whole Page objects rather than individual items.
 

@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v1.0.0**](../README.md)
+[**Veyra Node.js SDK v1.0.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: Responses
 
-Defined in: [src/resources/responses.ts:12](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/responses.ts#L12)
+Defined in: [src/resources/responses.ts:13](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/resources/responses.ts#L13)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [src/resources/responses.ts:12](https://github.com/tubox-labs/veyra-
 
 > **new Responses**(`_client`): `Responses`
 
-Defined in: [src/resources/responses.ts:13](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/responses.ts#L13)
+Defined in: [src/resources/responses.ts:14](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/resources/responses.ts#L14)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: [src/resources/responses.ts:13](https://github.com/tubox-labs/veyra-
 
 > **create**(`params`, `options?`): `Promise`\<[`VeyraResponse`](../interfaces/VeyraResponse.md)\>
 
-Defined in: [src/resources/responses.ts:15](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/responses.ts#L15)
+Defined in: [src/resources/responses.ts:16](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/resources/responses.ts#L16)
 
 ##### Parameters
 
@@ -54,7 +54,7 @@ Defined in: [src/resources/responses.ts:15](https://github.com/tubox-labs/veyra-
 
 > **create**(`params`, `options?`): `Promise`\<[`Stream`](Stream.md)\<[`ResponseStreamEvent`](../interfaces/ResponseStreamEvent.md)\>\>
 
-Defined in: [src/resources/responses.ts:20](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/responses.ts#L20)
+Defined in: [src/resources/responses.ts:21](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/resources/responses.ts#L21)
 
 ##### Parameters
 

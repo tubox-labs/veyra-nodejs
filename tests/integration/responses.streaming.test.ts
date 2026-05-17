@@ -38,10 +38,15 @@ describe("responses streaming integration", () => {
     });
 
     const events: string[] = [];
+    const responseIds: string[] = [];
     for await (const event of stream) {
       events.push(event.type);
+      if (event.responseId) {
+        responseIds.push(event.responseId);
+      }
     }
 
     expect(events).toEqual(["response.output_text.delta", "response.completed"]);
+    expect(responseIds).toEqual(["resp_1", "resp_1"]);
   });
 });

@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v1.0.0**](../README.md)
+[**Veyra Node.js SDK v1.0.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ResponseOutputText
 
-Defined in: [src/types/responses.ts:26](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L26)
+Defined in: [src/types/responses.ts:47](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/responses.ts#L47)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/types/responses.ts:26](https://github.com/tubox-labs/veyra-node
 
 > **type**: `"output_text"`
 
-Defined in: [src/types/responses.ts:27](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L27)
+Defined in: [src/types/responses.ts:48](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/responses.ts#L48)
 
 ***
 
@@ -22,4 +22,12 @@ Defined in: [src/types/responses.ts:27](https://github.com/tubox-labs/veyra-node
 
 > **text**: `string`
 
-Defined in: [src/types/responses.ts:28](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L28)
+Defined in: [src/types/responses.ts:49](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/responses.ts#L49)
+
+***
+
+### annotations?
+
+> `optional` **annotations?**: `Record`\<`string`, `unknown`\>[]
+
+Defined in: [src/types/responses.ts:50](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/responses.ts#L50)

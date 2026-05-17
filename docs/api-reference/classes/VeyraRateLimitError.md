@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v1.0.0**](../README.md)
+[**Veyra Node.js SDK v1.0.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: VeyraRateLimitError
 
-Defined in: [src/core/errors.ts:61](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/errors.ts#L61)
+Defined in: [src/core/errors.ts:61](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/errors.ts#L61)
 
 Received an error response from the Veyra API.
 
@@ -20,7 +20,7 @@ Received an error response from the Veyra API.
 
 > **new VeyraRateLimitError**(`message`, `retryAfter`, `options?`): `VeyraRateLimitError`
 
-Defined in: [src/core/errors.ts:64](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/errors.ts#L64)
+Defined in: [src/core/errors.ts:64](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/errors.ts#L64)
 
 #### Parameters
 
@@ -50,7 +50,7 @@ Defined in: [src/core/errors.ts:64](https://github.com/tubox-labs/veyra-nodejs/b
 
 > `readonly` **code**: `string` \| `undefined`
 
-Defined in: [src/core/errors.ts:19](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/errors.ts#L19)
+Defined in: [src/core/errors.ts:19](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/errors.ts#L19)
 
 #### Inherited from
 
@@ -62,7 +62,7 @@ Defined in: [src/core/errors.ts:19](https://github.com/tubox-labs/veyra-nodejs/b
 
 > `readonly` **httpStatus**: `number`
 
-Defined in: [src/core/errors.ts:20](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/errors.ts#L20)
+Defined in: [src/core/errors.ts:20](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/errors.ts#L20)
 
 #### Inherited from
 
@@ -74,7 +74,7 @@ Defined in: [src/core/errors.ts:20](https://github.com/tubox-labs/veyra-nodejs/b
 
 > `readonly` **requestId**: `string` \| `undefined`
 
-Defined in: [src/core/errors.ts:21](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/errors.ts#L21)
+Defined in: [src/core/errors.ts:21](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/errors.ts#L21)
 
 #### Inherited from
 
@@ -86,7 +86,7 @@ Defined in: [src/core/errors.ts:21](https://github.com/tubox-labs/veyra-nodejs/b
 
 > `readonly` **headers**: `Headers`
 
-Defined in: [src/core/errors.ts:22](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/errors.ts#L22)
+Defined in: [src/core/errors.ts:22](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/errors.ts#L22)
 
 #### Inherited from
 
@@ -98,7 +98,7 @@ Defined in: [src/core/errors.ts:22](https://github.com/tubox-labs/veyra-nodejs/b
 
 > `readonly` **retryAfter**: `number` \| `undefined`
 
-Defined in: [src/core/errors.ts:62](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/errors.ts#L62)
+Defined in: [src/core/errors.ts:62](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/errors.ts#L62)
 
 ***
 

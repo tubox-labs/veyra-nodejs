@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v1.0.0**](../README.md)
+[**Veyra Node.js SDK v1.0.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ClientOptions
 
-Defined in: [src/core/client.ts:22](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/client.ts#L22)
+Defined in: [src/core/client.ts:22](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/client.ts#L22)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/core/client.ts:22](https://github.com/tubox-labs/veyra-nodejs/b
 
 > `optional` **apiKey?**: `string`
 
-Defined in: [src/core/client.ts:27](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/client.ts#L27)
+Defined in: [src/core/client.ts:27](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/client.ts#L27)
 
 Veyra API key (`veyra_sk_...`).
 Falls back to the `VEYRA_API_KEY` environment variable when omitted.
@@ -25,7 +25,7 @@ Falls back to the `VEYRA_API_KEY` environment variable when omitted.
 
 > `optional` **baseURL?**: `string`
 
-Defined in: [src/core/client.ts:33](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/client.ts#L33)
+Defined in: [src/core/client.ts:33](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/client.ts#L33)
 
 Override the default base URL `https://veyra.tubox.cloud`.
 Falls back to `VEYRA_BASE_URL` environment variable.
@@ -36,7 +36,7 @@ Falls back to `VEYRA_BASE_URL` environment variable.
 
 > `optional` **timeout?**: `number`
 
-Defined in: [src/core/client.ts:36](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/client.ts#L36)
+Defined in: [src/core/client.ts:36](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/client.ts#L36)
 
 Request timeout in milliseconds (default `60_000`).
 
@@ -46,7 +46,7 @@ Request timeout in milliseconds (default `60_000`).
 
 > `optional` **maxRetries?**: `number`
 
-Defined in: [src/core/client.ts:39](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/client.ts#L39)
+Defined in: [src/core/client.ts:39](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/client.ts#L39)
 
 Number of automatic retries on retryable errors (default `2`).
 
@@ -56,7 +56,7 @@ Number of automatic retries on retryable errors (default `2`).
 
 > `optional` **defaultHeaders?**: `Record`\<`string`, `string`\>
 
-Defined in: [src/core/client.ts:42](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/client.ts#L42)
+Defined in: [src/core/client.ts:42](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/client.ts#L42)
 
 HTTP headers merged into every request.
 
@@ -66,7 +66,7 @@ HTTP headers merged into every request.
 
 > `optional` **fetch?**: \{(`input`, `init?`): `Promise`\<`Response`\>; (`input`, `init?`): `Promise`\<`Response`\>; \}
 
-Defined in: [src/core/client.ts:45](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/client.ts#L45)
+Defined in: [src/core/client.ts:45](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/client.ts#L45)
 
 Provide a custom `fetch` implementation.
 

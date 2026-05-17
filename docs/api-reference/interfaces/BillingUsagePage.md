@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v1.0.0**](../README.md)
+[**Veyra Node.js SDK v1.0.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: BillingUsagePage
 
-Defined in: [src/types/billing.ts:53](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L53)
+Defined in: [src/types/billing.ts:121](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/billing.ts#L121)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [src/types/billing.ts:53](https://github.com/tubox-labs/veyra-nodejs
 
 > **items**: [`UsageRecord`](UsageRecord.md)[]
 
-Defined in: [src/types/billing.ts:54](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L54)
+Defined in: [src/types/billing.ts:122](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/billing.ts#L122)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [src/types/billing.ts:54](https://github.com/tubox-labs/veyra-nodejs
 
 > **total**: `number`
 
-Defined in: [src/types/billing.ts:55](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L55)
+Defined in: [src/types/billing.ts:123](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/billing.ts#L123)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [src/types/billing.ts:55](https://github.com/tubox-labs/veyra-nodejs
 
 > **offset**: `number`
 
-Defined in: [src/types/billing.ts:56](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L56)
+Defined in: [src/types/billing.ts:124](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/billing.ts#L124)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [src/types/billing.ts:56](https://github.com/tubox-labs/veyra-nodejs
 
 > **limit**: `number`
 
-Defined in: [src/types/billing.ts:57](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L57)
+Defined in: [src/types/billing.ts:125](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/billing.ts#L125)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [src/types/billing.ts:57](https://github.com/tubox-labs/veyra-nodejs
 
 > **hasMore**: `boolean`
 
-Defined in: [src/types/billing.ts:58](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L58)
+Defined in: [src/types/billing.ts:126](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/billing.ts#L126)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [src/types/billing.ts:58](https://github.com/tubox-labs/veyra-nodejs
 
 > `optional` **\_raw?**: `unknown`
 
-Defined in: [src/types/shared.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L23)
+Defined in: [src/types/shared.ts:38](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/shared.ts#L38)
 
 #### Inherited from
 

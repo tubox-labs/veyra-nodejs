@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v1.0.0**](../README.md)
+[**Veyra Node.js SDK v1.0.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: APIResponse\<T\>
 
-Defined in: [src/core/response.ts:5](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/response.ts#L5)
+Defined in: [src/core/response.ts:5](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/response.ts#L5)
 
 Wraps a parsed API response with HTTP metadata.
 Returned by any method called through `client.withRawResponse.*`.
@@ -23,7 +23,7 @@ Returned by any method called through `client.withRawResponse.*`.
 
 > **data**: `T`
 
-Defined in: [src/core/response.ts:7](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/response.ts#L7)
+Defined in: [src/core/response.ts:7](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/response.ts#L7)
 
 Parsed response body.
 
@@ -33,7 +33,7 @@ Parsed response body.
 
 > **requestId**: `string` \| `undefined`
 
-Defined in: [src/core/response.ts:9](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/response.ts#L9)
+Defined in: [src/core/response.ts:9](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/response.ts#L9)
 
 `X-Request-ID` correlation header from the server.
 
@@ -43,7 +43,7 @@ Defined in: [src/core/response.ts:9](https://github.com/tubox-labs/veyra-nodejs/
 
 > **httpStatus**: `number`
 
-Defined in: [src/core/response.ts:11](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/response.ts#L11)
+Defined in: [src/core/response.ts:11](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/response.ts#L11)
 
 HTTP status code.
 
@@ -53,6 +53,6 @@ HTTP status code.
 
 > **headers**: `Headers`
 
-Defined in: [src/core/response.ts:13](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/response.ts#L13)
+Defined in: [src/core/response.ts:13](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/response.ts#L13)
 
 Full response headers.

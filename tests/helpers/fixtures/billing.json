@@ -1,7 +1,7 @@
 {
-  "from": "2026-05-01",
-  "to": "2026-05-12",
-  "total_requests": 200,
+  "prompt_tokens": 7200,
+  "completion_tokens": 4800,
   "total_tokens": 12000,
+  "request_count": 200,
   "total_cost_usd": 42.5
 }

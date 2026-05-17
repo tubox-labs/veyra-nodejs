@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v1.0.0**](../README.md)
+[**Veyra Node.js SDK v1.0.1**](../README.md)
 
 ***
 
@@ -8,4 +8,4 @@
 
 > **ResponseCreateParams** = [`ResponseCreateParamsNonStreaming`](../interfaces/ResponseCreateParamsNonStreaming.md) \| [`ResponseCreateParamsStreaming`](../interfaces/ResponseCreateParamsStreaming.md)
 
-Defined in: [src/types/responses.ts:24](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/responses.ts#L24)
+Defined in: [src/types/responses.ts:45](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/responses.ts#L45)

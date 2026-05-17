@@ -42,11 +42,17 @@ describe("chat streaming integration", () => {
     });
 
     let output = "";
+    let finishReason: string | null = null;
+    let totalTokens = 0;
     for await (const chunk of stream) {
       output += chunk.choices[0]?.delta.content ?? "";
+      finishReason = chunk.choices[0]?.finishReason ?? finishReason;
+      totalTokens = chunk.usage?.totalTokens ?? totalTokens;
     }
 
     expect(output).toBe("Hello");
+    expect(finishReason).toBe("stop");
+    expect(totalTokens).toBe(2);
 
     const stream2 = await client.chat.completions.create({
       model: "gpt-5.4-mini",

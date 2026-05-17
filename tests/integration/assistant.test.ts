@@ -8,9 +8,11 @@ describe("assistant integration", () => {
 
     const result = await client.assistant.chat({
       message: "hello",
+      history: [{ role: "user", content: "previous" }],
     });
 
-    expect(result.message).toBe("Assistant reply");
-    expect(result.conversationId).toBe("conv_1");
+    expect(result.answer).toBe("Assistant reply");
+    expect(result.model).toBe("account-context");
+    expect(result.requiresLogin).toBe(false);
   });
 });

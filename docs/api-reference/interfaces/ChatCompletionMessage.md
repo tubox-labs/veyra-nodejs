@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v1.0.0**](../README.md)
+[**Veyra Node.js SDK v1.0.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ChatCompletionMessage
 
-Defined in: [src/types/chat.ts:43](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L43)
+Defined in: [src/types/chat.ts:58](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L58)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/types/chat.ts:43](https://github.com/tubox-labs/veyra-nodejs/bl
 
 > **role**: `"assistant"`
 
-Defined in: [src/types/chat.ts:44](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L44)
+Defined in: [src/types/chat.ts:59](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L59)
 
 ***
 
@@ -22,4 +22,12 @@ Defined in: [src/types/chat.ts:44](https://github.com/tubox-labs/veyra-nodejs/bl
 
 > **content**: `string` \| `null`
 
-Defined in: [src/types/chat.ts:45](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L45)
+Defined in: [src/types/chat.ts:60](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L60)
+
+***
+
+### reasoning?
+
+> `optional` **reasoning?**: `string` \| `null`
+
+Defined in: [src/types/chat.ts:61](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L61)

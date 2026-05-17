@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v1.0.0**](../README.md)
+[**Veyra Node.js SDK v1.0.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: VeyraError
 
-Defined in: [src/core/errors.ts:7](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/errors.ts#L7)
+Defined in: [src/core/errors.ts:7](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/errors.ts#L7)
 
 Base class for all errors thrown by the Veyra SDK.
 
@@ -26,7 +26,7 @@ Base class for all errors thrown by the Veyra SDK.
 
 > **new VeyraError**(`message`): `VeyraError`
 
-Defined in: [src/core/errors.ts:8](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/core/errors.ts#L8)
+Defined in: [src/core/errors.ts:8](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/core/errors.ts#L8)
 
 #### Parameters
 

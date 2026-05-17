@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v1.0.0**](../README.md)
+[**Veyra Node.js SDK v1.0.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: Completions
 
-Defined in: [src/resources/completions.ts:13](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/completions.ts#L13)
+Defined in: [src/resources/completions.ts:14](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/resources/completions.ts#L14)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [src/resources/completions.ts:13](https://github.com/tubox-labs/veyr
 
 > **new Completions**(`_client`): `Completions`
 
-Defined in: [src/resources/completions.ts:14](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/completions.ts#L14)
+Defined in: [src/resources/completions.ts:15](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/resources/completions.ts#L15)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: [src/resources/completions.ts:14](https://github.com/tubox-labs/veyr
 
 > **create**(`params`, `options?`): `Promise`\<[`TextCompletion`](../interfaces/TextCompletion.md)\>
 
-Defined in: [src/resources/completions.ts:16](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/completions.ts#L16)
+Defined in: [src/resources/completions.ts:17](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/resources/completions.ts#L17)
 
 ##### Parameters
 
@@ -54,7 +54,7 @@ Defined in: [src/resources/completions.ts:16](https://github.com/tubox-labs/veyr
 
 > **create**(`params`, `options?`): `Promise`\<[`Stream`](Stream.md)\<[`TextCompletionChunk`](../interfaces/TextCompletionChunk.md)\>\>
 
-Defined in: [src/resources/completions.ts:21](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/resources/completions.ts#L21)
+Defined in: [src/resources/completions.ts:22](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/resources/completions.ts#L22)
 
 ##### Parameters
 

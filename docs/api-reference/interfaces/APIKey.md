@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v1.0.0**](../README.md)
+[**Veyra Node.js SDK v1.0.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: APIKey
 
-Defined in: [src/types/apiKeys.ts:3](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/apiKeys.ts#L3)
+Defined in: [src/types/apiKeys.ts:3](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/apiKeys.ts#L3)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [src/types/apiKeys.ts:3](https://github.com/tubox-labs/veyra-nodejs/
 
 > **id**: `string`
 
-Defined in: [src/types/apiKeys.ts:4](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/apiKeys.ts#L4)
+Defined in: [src/types/apiKeys.ts:4](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/apiKeys.ts#L4)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [src/types/apiKeys.ts:4](https://github.com/tubox-labs/veyra-nodejs/
 
 > **name**: `string`
 
-Defined in: [src/types/apiKeys.ts:5](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/apiKeys.ts#L5)
+Defined in: [src/types/apiKeys.ts:5](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/apiKeys.ts#L5)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [src/types/apiKeys.ts:5](https://github.com/tubox-labs/veyra-nodejs/
 
 > **scopes**: `string`[]
 
-Defined in: [src/types/apiKeys.ts:6](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/apiKeys.ts#L6)
+Defined in: [src/types/apiKeys.ts:6](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/apiKeys.ts#L6)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [src/types/apiKeys.ts:6](https://github.com/tubox-labs/veyra-nodejs/
 
 > **prefix**: `string`
 
-Defined in: [src/types/apiKeys.ts:7](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/apiKeys.ts#L7)
+Defined in: [src/types/apiKeys.ts:7](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/apiKeys.ts#L7)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [src/types/apiKeys.ts:7](https://github.com/tubox-labs/veyra-nodejs/
 
 > **isActive**: `boolean`
 
-Defined in: [src/types/apiKeys.ts:8](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/apiKeys.ts#L8)
+Defined in: [src/types/apiKeys.ts:8](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/apiKeys.ts#L8)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [src/types/apiKeys.ts:8](https://github.com/tubox-labs/veyra-nodejs/
 
 > **createdAt**: `string`
 
-Defined in: [src/types/apiKeys.ts:9](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/apiKeys.ts#L9)
+Defined in: [src/types/apiKeys.ts:9](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/apiKeys.ts#L9)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: [src/types/apiKeys.ts:9](https://github.com/tubox-labs/veyra-nodejs/
 
 > `optional` **lastUsedAt?**: `string`
 
-Defined in: [src/types/apiKeys.ts:10](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/apiKeys.ts#L10)
+Defined in: [src/types/apiKeys.ts:10](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/apiKeys.ts#L10)
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: [src/types/apiKeys.ts:10](https://github.com/tubox-labs/veyra-nodejs
 
 > `optional` **expiresAt?**: `string`
 
-Defined in: [src/types/apiKeys.ts:11](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/apiKeys.ts#L11)
+Defined in: [src/types/apiKeys.ts:11](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/apiKeys.ts#L11)
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: [src/types/apiKeys.ts:11](https://github.com/tubox-labs/veyra-nodejs
 
 > `optional` **\_raw?**: `unknown`
 
-Defined in: [src/types/shared.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L23)
+Defined in: [src/types/shared.ts:38](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/shared.ts#L38)
 
 #### Inherited from
 

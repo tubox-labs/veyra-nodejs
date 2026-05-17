@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v1.0.0**](../README.md)
+[**Veyra Node.js SDK v1.0.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: UserMessage
 
-Defined in: [src/types/chat.ts:8](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L8)
+Defined in: [src/types/chat.ts:19](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L19)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/types/chat.ts:8](https://github.com/tubox-labs/veyra-nodejs/blo
 
 > **role**: `"user"`
 
-Defined in: [src/types/chat.ts:9](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L9)
+Defined in: [src/types/chat.ts:20](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L20)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [src/types/chat.ts:9](https://github.com/tubox-labs/veyra-nodejs/blo
 
 > **content**: `string`
 
-Defined in: [src/types/chat.ts:10](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L10)
+Defined in: [src/types/chat.ts:21](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L21)

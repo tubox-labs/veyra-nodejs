@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v1.0.0**](../README.md)
+[**Veyra Node.js SDK v1.0.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: UsageSummary
 
-Defined in: [src/types/billing.ts:15](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L15)
+Defined in: [src/types/billing.ts:39](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/billing.ts#L39)
 
 ## Extends
 
@@ -14,27 +14,35 @@ Defined in: [src/types/billing.ts:15](https://github.com/tubox-labs/veyra-nodejs
 
 ## Properties
 
-### from
+### from?
 
-> **from**: `string`
+> `optional` **from?**: `string`
 
-Defined in: [src/types/billing.ts:16](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L16)
-
-***
-
-### to
-
-> **to**: `string`
-
-Defined in: [src/types/billing.ts:17](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L17)
+Defined in: [src/types/billing.ts:40](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/billing.ts#L40)
 
 ***
 
-### totalRequests
+### to?
 
-> **totalRequests**: `number`
+> `optional` **to?**: `string`
 
-Defined in: [src/types/billing.ts:18](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L18)
+Defined in: [src/types/billing.ts:41](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/billing.ts#L41)
+
+***
+
+### promptTokens
+
+> **promptTokens**: `number`
+
+Defined in: [src/types/billing.ts:42](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/billing.ts#L42)
+
+***
+
+### completionTokens
+
+> **completionTokens**: `number`
+
+Defined in: [src/types/billing.ts:43](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/billing.ts#L43)
 
 ***
 
@@ -42,15 +50,39 @@ Defined in: [src/types/billing.ts:18](https://github.com/tubox-labs/veyra-nodejs
 
 > **totalTokens**: `number`
 
-Defined in: [src/types/billing.ts:19](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L19)
+Defined in: [src/types/billing.ts:44](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/billing.ts#L44)
 
 ***
 
-### totalCostUsd
+### cachedTokens?
 
-> **totalCostUsd**: `number`
+> `optional` **cachedTokens?**: `number`
 
-Defined in: [src/types/billing.ts:20](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/billing.ts#L20)
+Defined in: [src/types/billing.ts:45](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/billing.ts#L45)
+
+***
+
+### totalCostUsd?
+
+> `optional` **totalCostUsd?**: `number`
+
+Defined in: [src/types/billing.ts:46](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/billing.ts#L46)
+
+***
+
+### requestCount
+
+> **requestCount**: `number`
+
+Defined in: [src/types/billing.ts:47](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/billing.ts#L47)
+
+***
+
+### totalRequests?
+
+> `optional` **totalRequests?**: `number`
+
+Defined in: [src/types/billing.ts:48](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/billing.ts#L48)
 
 ***
 
@@ -58,7 +90,7 @@ Defined in: [src/types/billing.ts:20](https://github.com/tubox-labs/veyra-nodejs
 
 > `optional` **\_raw?**: `unknown`
 
-Defined in: [src/types/shared.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L23)
+Defined in: [src/types/shared.ts:38](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/shared.ts#L38)
 
 #### Inherited from
 

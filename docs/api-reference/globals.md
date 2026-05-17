@@ -1,8 +1,8 @@
-[**Veyra Node.js SDK v1.0.0**](README.md)
+[**Veyra Node.js SDK v1.0.1**](README.md)
 
 ***
 
-# Veyra Node.js SDK v1.0.0
+# Veyra Node.js SDK v1.0.1
 
 ## Classes
 
@@ -46,10 +46,12 @@
 - [ClientOptions](interfaces/ClientOptions.md)
 - [RequestOptions](interfaces/RequestOptions.md)
 - [APIResponse](interfaces/APIResponse.md)
+- [VeyraWithRawResponse](interfaces/VeyraWithRawResponse.md)
 - [APIKey](interfaces/APIKey.md)
 - [CreateAPIKeyParams](interfaces/CreateAPIKeyParams.md)
 - [UpdateAPIKeyParams](interfaces/UpdateAPIKeyParams.md)
 - [CreateAPIKeyResponse](interfaces/CreateAPIKeyResponse.md)
+- [AssistantHistoryMessage](interfaces/AssistantHistoryMessage.md)
 - [AssistantChatParamsNonStreaming](interfaces/AssistantChatParamsNonStreaming.md)
 - [AssistantChatParamsStreaming](interfaces/AssistantChatParamsStreaming.md)
 - [AssistantResponse](interfaces/AssistantResponse.md)
@@ -60,9 +62,11 @@
 - [UsageSummary](interfaces/UsageSummary.md)
 - [BillingProfile](interfaces/BillingProfile.md)
 - [BillingAccess](interfaces/BillingAccess.md)
-- [BillingProfileUpsertParams](interfaces/BillingProfileUpsertParams.md)
+- [BillingProfileAddressUpsertParams](interfaces/BillingProfileAddressUpsertParams.md)
+- [LegacyBillingProfileUpsertParams](interfaces/LegacyBillingProfileUpsertParams.md)
 - [BillingUsageListParams](interfaces/BillingUsageListParams.md)
 - [BillingUsagePage](interfaces/BillingUsagePage.md)
+- [ReasoningConfig](interfaces/ReasoningConfig.md)
 - [SystemMessage](interfaces/SystemMessage.md)
 - [UserMessage](interfaces/UserMessage.md)
 - [AssistantMessage](interfaces/AssistantMessage.md)
@@ -94,14 +98,18 @@
 - [QuotaUsage](interfaces/QuotaUsage.md)
 - [QuotaPlan](interfaces/QuotaPlan.md)
 - [QuotaStatus](interfaces/QuotaStatus.md)
+- [ResponseInputMessage](interfaces/ResponseInputMessage.md)
 - [ResponseInputText](interfaces/ResponseInputText.md)
 - [ResponseCreateParamsNonStreaming](interfaces/ResponseCreateParamsNonStreaming.md)
 - [ResponseCreateParamsStreaming](interfaces/ResponseCreateParamsStreaming.md)
 - [ResponseOutputText](interfaces/ResponseOutputText.md)
 - [ResponseOutputMessage](interfaces/ResponseOutputMessage.md)
+- [ResponseReasoningSummaryText](interfaces/ResponseReasoningSummaryText.md)
+- [ResponseReasoningItem](interfaces/ResponseReasoningItem.md)
 - [VeyraResponse](interfaces/VeyraResponse.md)
 - [ResponseStreamEvent](interfaces/ResponseStreamEvent.md)
 - [Usage](interfaces/Usage.md)
+- [TokenUsageDetails](interfaces/TokenUsageDetails.md)
 - [ErrorDetail](interfaces/ErrorDetail.md)
 - [ErrorEnvelope](interfaces/ErrorEnvelope.md)
 - [MetadataCarrier](interfaces/MetadataCarrier.md)
@@ -110,12 +118,21 @@
 
 - [AssistantChatParams](type-aliases/AssistantChatParams.md)
 - [Uploadable](type-aliases/Uploadable.md)
+- [BillingProfileUpsertParams](type-aliases/BillingProfileUpsertParams.md)
+- [FlexibleString](type-aliases/FlexibleString.md)
+- [ReasoningEffort](type-aliases/ReasoningEffort.md)
+- [ReasoningSummary](type-aliases/ReasoningSummary.md)
 - [ChatCompletionMessageParam](type-aliases/ChatCompletionMessageParam.md)
 - [ChatCompletionCreateParams](type-aliases/ChatCompletionCreateParams.md)
+- [ResponseFormat](type-aliases/ResponseFormat.md)
 - [TextCompletionCreateParams](type-aliases/TextCompletionCreateParams.md)
 - [ImageSize](type-aliases/ImageSize.md)
 - [ImageQuality](type-aliases/ImageQuality.md)
+- [ImageResponseFormat](type-aliases/ImageResponseFormat.md)
+- [ResponseInputContent](type-aliases/ResponseInputContent.md)
+- [ResponseInput](type-aliases/ResponseInput.md)
 - [ResponseCreateParams](type-aliases/ResponseCreateParams.md)
+- [ResponseOutputItem](type-aliases/ResponseOutputItem.md)
 
 ## Functions
 

@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v1.0.0**](../README.md)
+[**Veyra Node.js SDK v1.0.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: Choice
 
-Defined in: [src/types/chat.ts:48](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L48)
+Defined in: [src/types/chat.ts:64](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L64)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/types/chat.ts:48](https://github.com/tubox-labs/veyra-nodejs/bl
 
 > **index**: `number`
 
-Defined in: [src/types/chat.ts:49](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L49)
+Defined in: [src/types/chat.ts:65](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L65)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [src/types/chat.ts:49](https://github.com/tubox-labs/veyra-nodejs/bl
 
 > **message**: [`ChatCompletionMessage`](ChatCompletionMessage.md)
 
-Defined in: [src/types/chat.ts:50](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L50)
+Defined in: [src/types/chat.ts:66](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L66)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: [src/types/chat.ts:50](https://github.com/tubox-labs/veyra-nodejs/bl
 
 > **finishReason**: `string` \| `null`
 
-Defined in: [src/types/chat.ts:51](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/chat.ts#L51)
+Defined in: [src/types/chat.ts:67](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/chat.ts#L67)

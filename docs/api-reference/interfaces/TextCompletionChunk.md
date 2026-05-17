@@ -1,4 +1,4 @@
-[**Veyra Node.js SDK v1.0.0**](../README.md)
+[**Veyra Node.js SDK v1.0.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: TextCompletionChunk
 
-Defined in: [src/types/completions.ts:47](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/completions.ts#L47)
+Defined in: [src/types/completions.ts:53](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/completions.ts#L53)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [src/types/completions.ts:47](https://github.com/tubox-labs/veyra-no
 
 > **id**: `string`
 
-Defined in: [src/types/completions.ts:48](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/completions.ts#L48)
+Defined in: [src/types/completions.ts:54](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/completions.ts#L54)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [src/types/completions.ts:48](https://github.com/tubox-labs/veyra-no
 
 > **object**: `"text_completion.chunk"`
 
-Defined in: [src/types/completions.ts:49](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/completions.ts#L49)
+Defined in: [src/types/completions.ts:55](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/completions.ts#L55)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [src/types/completions.ts:49](https://github.com/tubox-labs/veyra-no
 
 > **created**: `number`
 
-Defined in: [src/types/completions.ts:50](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/completions.ts#L50)
+Defined in: [src/types/completions.ts:56](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/completions.ts#L56)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [src/types/completions.ts:50](https://github.com/tubox-labs/veyra-no
 
 > **model**: `string`
 
-Defined in: [src/types/completions.ts:51](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/completions.ts#L51)
+Defined in: [src/types/completions.ts:57](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/completions.ts#L57)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [src/types/completions.ts:51](https://github.com/tubox-labs/veyra-no
 
 > **choices**: [`TextCompletionChoiceDelta`](TextCompletionChoiceDelta.md)[]
 
-Defined in: [src/types/completions.ts:52](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/completions.ts#L52)
+Defined in: [src/types/completions.ts:58](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/completions.ts#L58)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [src/types/completions.ts:52](https://github.com/tubox-labs/veyra-no
 
 > `optional` **usage?**: [`Usage`](Usage.md) \| `null`
 
-Defined in: [src/types/completions.ts:53](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/completions.ts#L53)
+Defined in: [src/types/completions.ts:59](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/completions.ts#L59)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: [src/types/completions.ts:53](https://github.com/tubox-labs/veyra-no
 
 > `optional` **\_raw?**: `unknown`
 
-Defined in: [src/types/shared.ts:23](https://github.com/tubox-labs/veyra-nodejs/blob/5b58b1304854b72776ec2ad1c66004804c3609a6/src/types/shared.ts#L23)
+Defined in: [src/types/shared.ts:38](https://github.com/tubox-labs/veyra-nodejs/blob/871a6c1e724391f3c26ecbbdab26c3924bd3bb48/src/types/shared.ts#L38)
 
 #### Inherited from
 

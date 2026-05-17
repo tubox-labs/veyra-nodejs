@@ -34,19 +34,37 @@ export const completionsFixture = {
 export const responsesFixture = {
   id: "resp_1",
   object: "response",
-  created: 1710000000,
+  created_at: 1710000000,
+  error: null,
+  incomplete_details: null,
+  instructions: "Be concise",
+  metadata: null,
   model: "gpt-5.4-mini",
   status: "completed",
   output: [
+    {
+      id: "rs_1",
+      type: "reasoning",
+      status: "completed",
+      summary: [{ type: "summary_text", text: "Checked the instruction." }],
+    },
     {
       type: "message",
       role: "assistant",
       content: [{ type: "output_text", text: "Response output" }],
     },
   ],
+  parallel_tool_calls: true,
+  temperature: null,
+  tool_choice: "auto",
+  tools: [],
+  top_p: null,
+  max_output_tokens: 128,
   usage: {
-    prompt_tokens: 4,
-    completion_tokens: 6,
+    input_tokens: 4,
+    input_tokens_details: { cached_tokens: 1 },
+    output_tokens: 6,
+    output_tokens_details: { reasoning_tokens: 2 },
     total_tokens: 10,
   },
 } as const;
@@ -95,10 +113,10 @@ export const quotaFixture = {
 } as const;
 
 export const billingFixture = {
-  from: "2026-05-01",
-  to: "2026-05-12",
-  total_requests: 200,
+  prompt_tokens: 7200,
+  completion_tokens: 4800,
   total_tokens: 12000,
+  request_count: 200,
   total_cost_usd: 42.5,
 } as const;
 
@@ -154,14 +172,12 @@ export const apiKeysFixture = [
 ] as const;
 
 export const assistantFixture = {
-  id: "asst_1",
-  conversation_id: "conv_1",
-  message: "Assistant reply",
-  usage: {
-    prompt_tokens: 8,
-    completion_tokens: 9,
-    total_tokens: 17,
-  },
+  answer: "Assistant reply",
+  model: "account-context",
+  references: ["account:model-access"],
+  blocked: false,
+  requires_login: false,
+  scope_limited: false,
 } as const;
 
 export const healthFixture = {
