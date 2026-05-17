@@ -1,6 +1,7 @@
 import type { VeyraClient } from "../core/client.js";
 import type { RequestOptions } from "../core/requestOptions.js";
 import { Stream } from "../core/streaming.js";
+import { parseJsonWithCamelCase } from "../lib/typeUtils.js";
 import type {
   ResponseCreateParams,
   ResponseCreateParamsNonStreaming,
@@ -37,9 +38,17 @@ export class Responses {
         undefined,
         options,
       );
-      return new Stream<ResponseStreamEvent>(response, (data) => JSON.parse(data) as ResponseStreamEvent);
+      return new Stream<ResponseStreamEvent>(response, (data) =>
+        parseJsonWithCamelCase<ResponseStreamEvent>(data),
+      );
     }
 
-    return this._client["_request"]<VeyraResponse>("POST", "/v1/responses", params, undefined, options) as Promise<VeyraResponse>;
+    return this._client["_request"]<VeyraResponse>(
+      "POST",
+      "/v1/responses",
+      params,
+      undefined,
+      options,
+    ) as Promise<VeyraResponse>;
   }
 }

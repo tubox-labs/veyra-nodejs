@@ -119,6 +119,11 @@ export function attachRaw<T>(data: T, raw: unknown): T {
   return data;
 }
 
+export function parseJsonWithCamelCase<T>(raw: string): T {
+  const parsed = JSON.parse(raw) as unknown;
+  return attachRaw(toCamelCase(parsed) as T, parsed);
+}
+
 export function toQueryParams(
   params: Record<string, string | number | boolean | undefined> | undefined,
 ): URLSearchParams {

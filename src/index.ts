@@ -11,6 +11,160 @@ import { Billing } from "./resources/billing/index.js";
 import { APIKeys } from "./resources/apiKeys.js";
 import { Assistant } from "./resources/assistant.js";
 import { Health } from "./resources/health.js";
+import type { APIResponse } from "./core/response.js";
+import type { RequestOptions } from "./core/requestOptions.js";
+import type { Stream } from "./core/streaming.js";
+import type {
+  APIKey,
+  AssistantChatParamsNonStreaming,
+  AssistantChatParamsStreaming,
+  AssistantResponse,
+  AssistantStreamEvent,
+  AudioTranscription,
+  AudioTranscriptionCreateParams,
+  BillingAccess,
+  BillingProfile,
+  BillingProfileUpsertParams,
+  ChatCompletion,
+  ChatCompletionChunk,
+  ChatCompletionCreateParamsNonStreaming,
+  ChatCompletionCreateParamsStreaming,
+  CreateAPIKeyParams,
+  CreateAPIKeyResponse,
+  EmbeddingCreateParams,
+  EmbeddingResponse,
+  HealthStatus,
+  ImageGenerationCreateParams,
+  ImageGenerationResponse,
+  ModelInfo,
+  ModelList,
+  QuotaPlan,
+  QuotaStatus,
+  ReadinessStatus,
+  ResponseCreateParamsNonStreaming,
+  ResponseCreateParamsStreaming,
+  ResponseStreamEvent,
+  TextCompletion,
+  TextCompletionChunk,
+  TextCompletionCreateParamsNonStreaming,
+  TextCompletionCreateParamsStreaming,
+  UpdateAPIKeyParams,
+  UsageSummary,
+  VeyraResponse,
+} from "./types/index.js";
+import type { Page } from "./core/pagination.js";
+import type { BillingUsageListParams, UsageRecord } from "./types/billing.js";
+
+export interface VeyraWithRawResponse {
+  readonly chat: {
+    readonly completions: {
+      create(
+        params: ChatCompletionCreateParamsNonStreaming,
+        options?: RequestOptions,
+      ): Promise<APIResponse<ChatCompletion>>;
+      create(
+        params: ChatCompletionCreateParamsStreaming,
+        options?: RequestOptions,
+      ): Promise<Stream<ChatCompletionChunk>>;
+    };
+  };
+  readonly completions: {
+    create(
+      params: TextCompletionCreateParamsNonStreaming,
+      options?: RequestOptions,
+    ): Promise<APIResponse<TextCompletion>>;
+    create(
+      params: TextCompletionCreateParamsStreaming,
+      options?: RequestOptions,
+    ): Promise<Stream<TextCompletionChunk>>;
+  };
+  readonly responses: {
+    create(
+      params: ResponseCreateParamsNonStreaming,
+      options?: RequestOptions,
+    ): Promise<APIResponse<VeyraResponse>>;
+    create(
+      params: ResponseCreateParamsStreaming,
+      options?: RequestOptions,
+    ): Promise<Stream<ResponseStreamEvent>>;
+  };
+  readonly embeddings: {
+    create(
+      params: EmbeddingCreateParams,
+      options?: RequestOptions,
+    ): Promise<APIResponse<EmbeddingResponse>>;
+  };
+  readonly images: {
+    readonly generations: {
+      create(
+        params: ImageGenerationCreateParams,
+        options?: RequestOptions,
+      ): Promise<APIResponse<ImageGenerationResponse>>;
+    };
+  };
+  readonly audio: {
+    readonly transcriptions: {
+      create(
+        params: AudioTranscriptionCreateParams,
+        options?: RequestOptions,
+      ): Promise<APIResponse<AudioTranscription>>;
+    };
+  };
+  readonly models: {
+    list(options?: RequestOptions): Promise<APIResponse<ModelList>>;
+    retrieve(modelId: string, options?: RequestOptions): Promise<APIResponse<ModelInfo>>;
+  };
+  readonly quota: {
+    status(options?: RequestOptions): Promise<APIResponse<QuotaStatus>>;
+    listPlans(options?: RequestOptions): Promise<APIResponse<QuotaPlan[]>>;
+    listPublicPlans(options?: RequestOptions): Promise<APIResponse<QuotaPlan[]>>;
+  };
+  readonly billing: {
+    readonly usage: {
+      list(params?: BillingUsageListParams, options?: RequestOptions): Promise<Page<UsageRecord>>;
+      dailySummary(options?: RequestOptions): Promise<APIResponse<UsageSummary>>;
+      monthlySummary(
+        params?: { year?: number; month?: number },
+        options?: RequestOptions,
+      ): Promise<APIResponse<UsageSummary>>;
+    };
+    readonly profile: {
+      retrieve(options?: RequestOptions): Promise<APIResponse<BillingProfile | null>>;
+      upsert(
+        params: BillingProfileUpsertParams,
+        options?: RequestOptions,
+      ): Promise<APIResponse<BillingProfile>>;
+      access(options?: RequestOptions): Promise<APIResponse<BillingAccess>>;
+    };
+  };
+  readonly apiKeys: {
+    create(
+      params: CreateAPIKeyParams,
+      options?: RequestOptions,
+    ): Promise<APIResponse<CreateAPIKeyResponse>>;
+    list(options?: RequestOptions): Promise<APIResponse<APIKey[]>>;
+    update(
+      keyId: string,
+      params: UpdateAPIKeyParams,
+      options?: RequestOptions,
+    ): Promise<APIResponse<APIKey>>;
+    revoke(keyId: string, options?: RequestOptions): Promise<APIResponse<void>>;
+  };
+  readonly assistant: {
+    chat(
+      params: AssistantChatParamsNonStreaming,
+      options?: RequestOptions,
+    ): Promise<APIResponse<AssistantResponse>>;
+    chat(
+      params: AssistantChatParamsStreaming,
+      options?: RequestOptions,
+    ): Promise<Stream<AssistantStreamEvent>>;
+  };
+  readonly health: {
+    check(options?: RequestOptions): Promise<APIResponse<HealthStatus>>;
+    ready(options?: RequestOptions): Promise<APIResponse<ReadinessStatus>>;
+  };
+}
 
 export class Veyra extends VeyraClient {
   /** Chat completion endpoints: `client.chat.completions.create(...)` */
@@ -57,8 +211,10 @@ export class Veyra extends VeyraClient {
   /**
    * Returns a new client variant that resolves to `APIResponse<T>` wrappers.
    */
-  get withRawResponse(): Veyra {
-    return new Veyra(this._cloneClientOptions(true) as ClientOptions & { __rawResponseMode: true });
+  get withRawResponse(): VeyraWithRawResponse {
+    return new Veyra(
+      this._cloneClientOptions(true) as ClientOptions & { __rawResponseMode: true },
+    ) as unknown as VeyraWithRawResponse;
   }
 }
 

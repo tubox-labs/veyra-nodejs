@@ -1,14 +1,21 @@
 import type { MetadataCarrier } from "./shared.js";
 
 export interface QuotaLimits {
-  dailyRequests: number;
   dailyTokens: number;
+  dailyRequests: number;
+  rpm: number;
+  tpm: number;
+  maxContextTokens: number;
+  maxOutputTokens: number;
   monthlySpendUsd?: number;
 }
 
 export interface QuotaUsage {
-  requestsUsedToday: number;
   tokensUsedToday: number;
+  tokensRemainingToday?: number;
+  requestsUsedToday: number;
+  requestsRemainingToday?: number;
+  percentageUsed?: number;
   spendUsdMonthToDate?: number;
 }
 
@@ -25,4 +32,5 @@ export interface QuotaStatus extends MetadataCarrier {
   limits: QuotaLimits;
   usage: QuotaUsage;
   resetsAt: string;
+  timeUntilReset?: string;
 }

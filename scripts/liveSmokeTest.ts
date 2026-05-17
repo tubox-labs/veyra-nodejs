@@ -54,6 +54,31 @@ async function run(): Promise<SmokeResult> {
   }
 
   try {
+    const response = await client.responses.create({
+      model: "gpt-5.4-mini",
+      input: "Reply with exactly: responses-smoke-ok",
+      maxOutputTokens: 32,
+      reasoning: { effort: "low", summary: "auto" },
+      parallelToolCalls: false,
+      truncation: "auto",
+    });
+    const messageOutput = response.output.find((item) => item.type === "message");
+    const text =
+      messageOutput?.type === "message" ? messageOutput.content[0]?.text ?? "" : "";
+    if (!text.trim()) {
+      throw new Error("Responses API returned no message output text.");
+    }
+    checks.push({
+      name: "responses.create.reasoning",
+      status: "pass",
+      detail: `response=${JSON.stringify(text)}`,
+    });
+  } catch (error) {
+    checks.push({ name: "responses.create.reasoning", status: "fail", detail: String(error) });
+    return { ok: false, checks };
+  }
+
+  try {
     const stream = await client.chat.completions.create({
       model: "gpt-5.4-mini",
       messages: [{ role: "user", content: "Say: stream-ok" }],

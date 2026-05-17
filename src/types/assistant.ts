@@ -2,8 +2,14 @@ import type { MetadataCarrier, Usage } from "./shared.js";
 
 interface AssistantChatParamsBase {
   message: string;
+  history?: AssistantHistoryMessage[];
   model?: string;
   conversationId?: string;
+}
+
+export interface AssistantHistoryMessage {
+  role: "user" | "assistant" | "system";
+  content: string;
 }
 
 export interface AssistantChatParamsNonStreaming extends AssistantChatParamsBase {
@@ -19,15 +25,27 @@ export type AssistantChatParams =
   | AssistantChatParamsStreaming;
 
 export interface AssistantResponse extends MetadataCarrier {
-  id: string;
-  conversationId: string;
-  message: string;
+  answer: string;
+  model: string;
+  references: string[];
+  blocked: boolean;
+  requiresLogin: boolean;
+  scopeLimited: boolean;
+  id?: string;
+  conversationId?: string;
+  message?: string;
   usage?: Usage | null;
 }
 
 export interface AssistantStreamEvent extends MetadataCarrier {
-  type: string;
+  type: "meta" | "delta" | "done" | string;
   delta?: string;
   done?: boolean;
   conversationId?: string;
+  answer?: string;
+  model?: string;
+  references?: string[];
+  blocked?: boolean;
+  requiresLogin?: boolean;
+  scopeLimited?: boolean;
 }

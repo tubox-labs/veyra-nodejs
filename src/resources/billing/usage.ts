@@ -28,7 +28,7 @@ export class Usage {
   async dailySummary(options?: RequestOptions): Promise<UsageSummary> {
     return this._client["_request"]<UsageSummary>(
       "GET",
-      "/v1/billing/usage/daily-summary",
+      "/v1/billing/usage/summary/daily",
       undefined,
       undefined,
       options,
@@ -44,7 +44,7 @@ export class Usage {
   ): Promise<UsageSummary> {
     return this._client["_request"]<UsageSummary>(
       "GET",
-      "/v1/billing/usage/monthly-summary",
+      "/v1/billing/usage/summary/monthly",
       undefined,
       params,
       options,

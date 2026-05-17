@@ -1,4 +1,5 @@
 import type { MetadataCarrier, Usage } from "./shared.js";
+import type { ReasoningConfig, ReasoningEffort, ResponseFormat } from "./chat.js";
 
 interface TextCompletionCreateParamsBase {
   model: string;
@@ -6,9 +7,14 @@ interface TextCompletionCreateParamsBase {
   temperature?: number;
   topP?: number;
   maxTokens?: number;
+  maxCompletionTokens?: number;
+  reasoningEffort?: ReasoningEffort;
+  reasoning?: ReasoningConfig;
   stop?: string | string[];
   frequencyPenalty?: number;
   presencePenalty?: number;
+  responseFormat?: ResponseFormat;
+  user?: string;
 }
 
 export interface TextCompletionCreateParamsNonStreaming extends TextCompletionCreateParamsBase {

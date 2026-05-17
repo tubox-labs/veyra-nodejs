@@ -10,13 +10,14 @@ export async function collectStream(stream: Stream<ChatCompletionChunk>): Promis
   let created = 0;
   let model = "";
   let usage: ChatCompletion["usage"] = null;
-  const systemFingerprint: string | null = null;
+  let systemFingerprint: string | null = null;
 
   for await (const chunk of stream) {
     id = chunk.id;
     created = chunk.created;
     model = chunk.model;
     usage = chunk.usage ?? usage;
+    systemFingerprint = chunk.systemFingerprint ?? systemFingerprint;
 
     for (const choice of chunk.choices) {
       const existing = parts.get(choice.index) ?? {

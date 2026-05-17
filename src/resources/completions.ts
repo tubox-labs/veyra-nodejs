@@ -2,6 +2,7 @@ import type { VeyraClient } from "../core/client.js";
 import { VeyraError } from "../core/errors.js";
 import type { RequestOptions } from "../core/requestOptions.js";
 import { Stream } from "../core/streaming.js";
+import { parseJsonWithCamelCase } from "../lib/typeUtils.js";
 import type {
   TextCompletion,
   TextCompletionChunk,
@@ -42,7 +43,9 @@ export class Completions {
         undefined,
         options,
       );
-      return new Stream<TextCompletionChunk>(response, (data) => JSON.parse(data) as TextCompletionChunk);
+      return new Stream<TextCompletionChunk>(response, (data) =>
+        parseJsonWithCamelCase<TextCompletionChunk>(data),
+      );
     }
 
     return this._client["_request"]<TextCompletion>(

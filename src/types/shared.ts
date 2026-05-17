@@ -1,8 +1,23 @@
 /** Token usage reported by the API. */
 export interface Usage {
-  promptTokens: number;
-  completionTokens: number;
+  promptTokens?: number;
+  completionTokens?: number;
+  inputTokens?: number;
+  outputTokens?: number;
   totalTokens: number;
+  promptTokensDetails?: TokenUsageDetails;
+  completionTokensDetails?: TokenUsageDetails;
+  inputTokensDetails?: TokenUsageDetails;
+  outputTokensDetails?: TokenUsageDetails;
+}
+
+export interface TokenUsageDetails {
+  cachedTokens?: number;
+  reasoningTokens?: number;
+  audioTokens?: number;
+  acceptedPredictionTokens?: number;
+  rejectedPredictionTokens?: number;
+  [key: string]: unknown;
 }
 
 export interface ErrorDetail {

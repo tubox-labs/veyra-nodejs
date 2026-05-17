@@ -44,7 +44,7 @@ export class Profile {
   async access(options?: RequestOptions): Promise<BillingAccess> {
     return this._client["_request"]<BillingAccess>(
       "GET",
-      "/v1/billing/profile/access",
+      "/v1/billing/access",
       undefined,
       undefined,
       options,
